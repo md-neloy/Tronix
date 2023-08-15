@@ -1,0 +1,54 @@
+#navbar {
+  input {
+    background: #efefef;
+    color: #fff;
+    width: 450px;
+    &::placeholder {
+      color: #a7a7a7;
+    }
+    border: none;
+  }
+  button {
+    background: #f46b5b;
+    color: #fff;
+    border: none;
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .mail_icon {
+    margin-left: 32px;
+    color: #383838;
+    font-size: 24px;
+  }
+  .signBtn {
+    padding: 16px 40px;
+    background: #fff;
+    width: max-content;
+    border-radius: 16px;
+    color: #f46b5b;
+    transition: all 0.4s;
+    margin-left: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &:hover {
+      background: #f46b5b;
+      color: #fff;
+    }
+  }
+}
+#second_menu{
+  ul{
+    justify-content: center;
+    margin:0 auto;
+    li{
+      a{
+        font-family: 'Poppins', sans-serif;
+        color:#383838;
+        font-size:18px;
+        font-weight: 400;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+header{
+    padding: 18px 0;
+    .header{
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #a7a7a747;
+        .social{
+            display: flex;
+            gap:32px;
+            a{
+                font-size: 18px;
+                color:#383838;
+            }
+        }
+        .contact{
+            display: flex;
+            gap:32px;
+            a{
+                font-family: 'Poppins', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color:#383838;
+                span{
+                    color:#F46B5B;
+                    margin-right:32px;
+                }
+            }
+        }
+    }
+}
