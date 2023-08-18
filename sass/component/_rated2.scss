@@ -1,0 +1,71 @@
+@import "../variable/variable";
+#rated2 {
+  padding: 100px 0;
+  .ratedDiv {
+    width: 300px;
+    padding: 32px 32px;
+    border-radius: 32px;
+    border: 1px solid $secondary-color;
+    img {
+      width: 100%;
+      border-radius: 32px;
+    }
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #383838;
+      margin-top: 32px;
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #383838;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    h4 {
+      display: flex;
+      justify-content: space-around;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #383838;
+      width: 158px;
+      margin: 0 auto;
+      i {
+        color: #ffd687;
+      }
+      .line {
+        height: auto;
+        width: 1px;
+        background: #383838;
+      }
+    }
+    a {
+      padding: 12px 28px;
+      background: $brand-color;
+      color: #fff;
+      border-radius: 8px;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      display: block;
+      width: fit-content;
+      margin: 24px auto 0;
+    }
+  }
+  .other_side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 160px 0 0;
+    a{
+      color:$secondary-color;
+      font-size: 48px;
+      font-weight: 700;
+    }
+  }
+}

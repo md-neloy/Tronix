@@ -1,0 +1,59 @@
+@import "../variable/variable";
+#product2 {
+  padding: 130px 0;
+  .arr_div {
+    width: 412px;
+    border-radius: 32px;
+    border: 1px solid #a7a7a7;
+    img {
+      width: 100%;
+      border-top-left-radius: 32px;
+      border-top-right-radius: 32px;
+    }
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #383838;
+      margin-top: 32px;
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #383838;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    h4 {
+      display: flex;
+      justify-content: space-around;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #383838;
+      width: 158px;
+      margin: 0 auto;
+      i {
+        color: #ffd687;
+      }
+      .line {
+        height: auto;
+        width: 1px;
+        background: #383838;
+      }
+    }
+    .btn {
+      padding: 12px 28px;
+      background: #f46b5b;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      display: block;
+      width: fit-content;
+      margin: 32px auto 18px;
+    }
+  }
+}

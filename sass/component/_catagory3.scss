@@ -1,0 +1,33 @@
+@import "../variable/variable";
+#catagory3 {
+  padding: 60px 0;
+  h3 {
+    margin-bottom: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #383838;
+  }
+  .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .item {
+      text-align: center;
+      i {
+        font-size: 24px;
+        padding: 12px;
+        border: 1px solid $secondary-color;
+        border-radius: 8px;
+        color:$brand-color;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #383838;
+        text-align: center;
+      }
+    }
+  }
+}
