@@ -1,0 +1,563 @@
+@import "../variable/variable";
+#about6 {
+  padding: 48px 0 80px;
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    a {
+      color: $secondary-color;
+      &:hover {
+        color: $brand-color;
+      }
+    }
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: $primary-color;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: $secondary-color;
+    width: 1056px;
+    margin: 0 auto 80px;
+    text-align: center;
+  }
+  .border {
+    border-radius: 16px;
+    padding: 32px;
+  }
+  .scroll {
+    padding-bottom: 10px;
+    h3 {
+      margin-bottom: 32px;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .scrolling-container {
+      width: 100%; /* Set your desired width */
+      height: 350px; /* Set your desired height */
+      overflow: auto; /* Enable scrolling when content overflows */
+      border: none; /* Optional border for visual clarity */
+      padding-left: 0;
+      li {
+        margin-bottom: 16px;
+        a {
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          color: $secondary-color;
+        }
+      }
+    }
+    .scrolling-container::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background-color: #f5f5f5;
+    }
+    .scrolling-container::-webkit-scrollbar {
+      width: 6px;
+      background-color: $brand-color;
+    }
+    .scrolling-container::-webkit-scrollbar-thumb {
+      background-color: $brand-color;
+    }
+  }
+  .filter {
+    .according_filter {
+      button {
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: $primary-color;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .accordion-item {
+        border: none;
+      }
+      .accordion-button:focus {
+        z-index: 3;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+      }
+      .accordion-button:not(.collapsed) {
+        color: $primary-color;
+        background-color: transparent;
+        box-shadow: none;
+      }
+      .slidecontainer {
+        width: 100%;
+      }
+      .slider {
+        width: 100%;
+        background: red;
+        accent-color: $brand-color;
+      }
+      .slider::-webkit-slider-thumb {
+        background: red; /* Set the default color for the thumb */
+      }
+    }
+  }
+  .location_filter {
+    .local_filter {
+      button {
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: $primary-color;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .accordion-item {
+        border: none;
+      }
+      .accordion-button:focus {
+        z-index: 3;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+      }
+      .accordion-button:not(.collapsed) {
+        color: $primary-color;
+        background-color: transparent;
+        box-shadow: none;
+      }
+      .main .custombox:after {
+        left: 6px;
+        bottom: 4px;
+        width: 10px;
+        height: 18px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .main {
+        display: block;
+        position: relative;
+        padding-left: 45px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        .color {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $secondary-color;
+        }
+        &:hover .check ~ .custombox {
+          background-color: #008000;
+        }
+        .check {
+          visibility: hidden;
+          &:checked ~ .custombox {
+            background-color: $brand-color;
+            border: none;
+          }
+          &:checked ~ .custombox ~ .color {
+            color: $brand-color;
+          }
+          &:checked ~ .custombox:after {
+            display: block;
+          }
+        }
+        .custombox {
+          position: absolute;
+          top: 5px;
+          left: 0;
+          width: 24px;
+          height: 24px;
+          background: transparent;
+          border: 1px solid $secondary-color;
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+        }
+      }
+    }
+    // .slidecontainer {
+    //   width: 100%;
+    // }
+    // .slider {
+    //   width: 100%;
+    //   background: red;
+    //   accent-color: $brand-color;
+    // }
+    // .slider::-webkit-slider-thumb {
+    //   background: red; /* Set the default color for the thumb */
+    // }
+    // p {
+    //   .checkedinput {
+    //     accent-color: $brand-color;
+    //   }
+    //   .checked {
+    //     color: $brand-color;
+    //   }
+    // }
+  }
+  .star_filter {
+    .local_filter {
+      button {
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: $primary-color;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .accordion-item {
+        border: none;
+      }
+      .accordion-button:focus {
+        z-index: 3;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+      }
+      .accordion-button:not(.collapsed) {
+        color: $primary-color;
+        background-color: transparent;
+        box-shadow: none;
+      }
+      .main .custombox:after {
+        left: 6px;
+        bottom: 4px;
+        width: 10px;
+        height: 18px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .main {
+        display: block;
+        position: relative;
+        padding-left: 45px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        .color {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: #ffd687;
+          i {
+            margin-right: 8px;
+          }
+        }
+        &:hover .check ~ .custombox {
+          background-color: #008000;
+        }
+        .check {
+          visibility: hidden;
+          &:checked ~ .custombox {
+            background-color: $brand-color;
+            border: none;
+          }
+          &:checked ~ .custombox ~ .color {
+            color: $brand-color;
+          }
+          &:checked ~ .custombox:after {
+            display: block;
+          }
+        }
+        .custombox {
+          position: absolute;
+          top: 5px;
+          left: 0;
+          width: 24px;
+          height: 24px;
+          background: transparent;
+          border: 1px solid $secondary-color;
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+        }
+      }
+    }
+    // .slidecontainer {
+    //   width: 100%;
+    // }
+    // .slider {
+    //   width: 100%;
+    //   background: red;
+    //   accent-color: $brand-color;
+    // }
+    // .slider::-webkit-slider-thumb {
+    //   background: red; /* Set the default color for the thumb */
+    // }
+    // p {
+    //   .checkedinput {
+    //     accent-color: $brand-color;
+    //   }
+    //   .checked {
+    //     color: $brand-color;
+    //   }
+    // }
+  }
+  .filter1 {
+    .local_filter {
+      button {
+        border: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: $primary-color;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .accordion-button:focus {
+        z-index: 3;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+      }
+      .accordion-button:not(.collapsed) {
+        color: $primary-color;
+        background-color: transparent;
+        box-shadow: none;
+      }
+      .main .custombox:after {
+        left: 6px;
+        bottom: 4px;
+        width: 10px;
+        height: 18px;
+        border: solid white;
+        border-width: 0 4px 4px 0;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .main {
+        display: block;
+        position: relative;
+        padding-left: 45px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        .color {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $secondary-color;
+        }
+        &:hover .check ~ .custombox {
+          background-color: #008000;
+        }
+        .check {
+          visibility: hidden;
+          &:checked ~ .custombox {
+            background-color: $brand-color;
+            border: none;
+          }
+          &:checked ~ .custombox ~ .color {
+            color: $brand-color;
+          }
+          &:checked ~ .custombox:after {
+            display: block;
+          }
+        }
+        .custombox {
+          position: absolute;
+          top: 5px;
+          left: 0;
+          width: 24px;
+          height: 24px;
+          background: transparent;
+          border: 1px solid $secondary-color;
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+        }
+      }
+    }
+    // .slidecontainer {
+    //   width: 100%;
+    // }
+    // .slider {
+    //   width: 100%;
+    //   background: red;
+    //   accent-color: $brand-color;
+    // }
+    // .slider::-webkit-slider-thumb {
+    //   background: red; /* Set the default color for the thumb */
+    // }
+    // p {
+    //   .checkedinput {
+    //     accent-color: $brand-color;
+    //   }
+    //   .checked {
+    //     color: $brand-color;
+    //   }
+    // }
+  }
+  .btns {
+    padding: 16px 100px;
+    width: 100%;
+    background: $brand-color;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    margin-top: 56px;
+  }
+  .reset {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: $brand-color;
+    margin: 32px auto 0;
+    display: block;
+    width: fit-content;
+  }
+  .information {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .item {
+      padding: 20px 15px;
+      border-radius: 16px;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      width: 204px;
+      font-weight: 400;
+      color: $primary-color;
+      border: 1px solid $secondary-color;
+      transition: all 0.4s;
+      &:hover {
+        color: $brand-color;
+        cursor: pointer;
+      }
+      span {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 24px;
+      }
+      p {
+        width: max-content;
+        margin: 0 auto;
+      }
+    }
+  }
+  .feture {
+    margin-top: 80px;
+    h3 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: $primary-color;
+      margin-bottom: 32px;
+    }
+    .other_side {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        color: $secondary-color;
+        font-size: 40px;
+        font-weight: 400;
+      }
+    }
+  }
+  .btm {
+    margin-bottom: 32px;
+  }
+  .list_product {
+    .ratedDiv {
+      width: 100%;
+      padding: 32px 32px;
+      border-radius: 32px;
+      border: 1px solid $secondary-color;
+      img {
+        width: 100%;
+        border-radius: 32px;
+      }
+      h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #383838;
+        margin-top: 32px;
+        text-align: center;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #383838;
+        display: block;
+        margin: 0 auto 16px;
+        text-align: center;
+      }
+      h4 {
+        display: flex;
+        justify-content: space-around;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #383838;
+        width: 158px;
+        margin: 0 auto;
+        i {
+          color: #ffd687;
+        }
+        .line {
+          height: auto;
+          width: 1px;
+          background: #383838;
+        }
+      }
+      .love {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        a {
+          padding: 12px 28px;
+          background: $brand-color;
+          color: #fff;
+          border-radius: 8px;
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          width: fit-content;
+          margin: 0 auto;
+        }
+        i {
+          font-size: 18px;
+          color: $brand-color;
+        }
+      }
+    }
+  }
+}

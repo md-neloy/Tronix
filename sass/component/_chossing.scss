@@ -1,0 +1,45 @@
+@import "../variable/variable";
+#chossing {
+  padding: 80px 0 160px;
+  h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 80px;
+  }
+  .choose_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .choose_item {
+      width: 375px;
+      padding: 4px;
+      .icon {
+        text-align: center;
+        i {
+          color: $brand-color;
+          margin-bottom: 32px;
+          font-size: 24px;
+        }
+      }
+      h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        color: $primary-color;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+        color: $secondary-color;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 8px;
+      }
+    }
+  }
+}

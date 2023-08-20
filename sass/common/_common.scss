@@ -57,7 +57,19 @@ li {
     color: $brand-color;
   }
 }
-
+.small_arr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+    a {
+      color: $secondary-color;
+      &:hover {
+        color: $brand-color;
+      }
+    }
+  }
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto', sans-serif;
