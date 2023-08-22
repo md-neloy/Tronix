@@ -4752,4 +4752,238 @@ header .header .contact a span {
 #contact .info .flex_icon a {
   font-size: 24px;
   color: #fff;
+}
+
+#login {
+  padding: 80px 0;
+}
+#login .login_box {
+  padding: 80px 136px;
+  border-radius: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#login .login_box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #383838;
+  margin-bottom: 24px;
+  margin-bottom: 57px;
+  width: -moz-max-content;
+  width: max-content;
+}
+#login .login_box p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+  margin-bottom: 57px;
+  width: -moz-max-content;
+  width: max-content;
+}
+#login .login_box .in_txt {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+  margin-bottom: 16px;
+}
+#login .login_box input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #a7a7a7;
+  margin-bottom: 32px;
+}
+#login .login_box .password-container {
+  position: relative;
+}
+#login .login_box .password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 21%;
+  cursor: pointer;
+}
+#login .login_box .password-toggle i {
+  color: #f46b5b;
+}
+#login .login_box .password-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: #666;
+}
+#login .login_box .password-input {
+  padding-right: 30px;
+}
+#login .login_box .login {
+  padding: 16px 0;
+  width: 100%;
+  background: #f46b5b;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+}
+#login .login_box .rember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+#login .login_box .rember .fex {
+  align-items: center;
+}
+#login .login_box .rember .fex p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+#login .login_box .rember .main {
+  display: block;
+  position: relative;
+  padding-left: 12px;
+}
+#login .login_box .rember .main input {
+  visibility: hidden;
+}
+#login .login_box .rember .main input:checked ~ .custom {
+  background: #f46b5b;
+  border: none;
+}
+#login .login_box .rember .main input:checked ~ .custom::after {
+  display: block;
+  top: 0;
+  left: 7px;
+  width: 10px;
+  height: 18px;
+  border: solid white;
+  transform: rotate(45deg);
+  border-width: 0 4px 4px 0;
+}
+#login .login_box .rember .main .custom {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #a7a7a7;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+#login .login_box .rember .main .custom:hover {
+  background: #008000;
+}
+#login .login_box .rember .main .custom::after {
+  content: "";
+  display: hidden;
+  position: absolute;
+}
+#login .login_box .rember a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f46b5b;
+}
+#login .login_box .log_fot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+#login .login_box .log_fot span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #383838;
+}
+#login .login_box .log_fot a {
+  font-size: 24px;
+  color: #a7a7a7;
+}
+#login .login_box .log_fot a:hover {
+  color: #f46b5b;
+}
+
+#account {
+  padding: 80px 0 160px;
+}
+#account .profile {
+  padding: 64px 104px 48px 64px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 32px;
+  display: flex;
+}
+#account .profile h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #383838;
+  margin-bottom: 16px;
+  width: -moz-max-content;
+  width: max-content;
+}
+#account .profile .myprofile {
+  border-right: 1px solid #a7a7a7;
+  padding-right: 83px;
+}
+#account .profile .myprofile ul {
+  margin-top: 32px;
+}
+#account .profile .myprofile ul li {
+  margin-bottom: 16px;
+}
+#account .profile .myprofile ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+  padding: 0 5px 0;
+}
+#account .profile .myprofile ul li a:hover {
+  color: #f46b5b;
+  transition: all 0.4s;
+}
+#account .profile .account_data {
+  padding-left: 80px;
+  width: 100%;
+}
+#account .profile .account_data p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a7a7a7;
+  margin-bottom: 40px;
+}
+#account .profile .account_data .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+  margin-bottom: 32px;
+}
+#account .profile .account_data .name .first_name {
+  width: 100%;
+}
+#account .profile .account_data .name .first_name p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #383838;
+}
+#account .profile .account_data .name .first_name input {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #a7a7a7;
+}
+#account .profile .account_data .submit {
+  float: right;
 }/*# sourceMappingURL=style.css.map */

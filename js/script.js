@@ -376,3 +376,12 @@ $(".microphone_nav").slick({
   nextArrow:
     '<button type="button" class="slick-next nxt_btn"><i class="fa-solid fa-chevron-right"></i></button>',
 });
+
+function togglePassword() {
+  let input = document.querySelector(".password-input");
+  if (input.type === "password") {
+    input.type = "text";
+  } else {
+    input.type = "password";
+  }
+}
