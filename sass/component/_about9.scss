@@ -1,0 +1,197 @@
+@import "../variable/variable";
+#about9 {
+  padding: 48px 0 0;
+  .common_text {
+    margin-top: 48px;
+  }
+  .nosubmit {
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent
+      url("file:///D:/HTML%20tutorial%20practice/Final%20porject%20for%20CIT/img/search.png")
+      no-repeat 13px center;
+    background-size: 20px 20px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    width: 100%;
+    border-color: $secondary-color;
+  }
+  .categories {
+    padding: 32px 0 32px 32px;
+    border: 1px solid $secondary-color;
+    border-radius: 16px;
+    ul {
+      li {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 8px;
+        &:first-child {
+          margin-bottom: 16px;
+        }
+        a {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $primary-color;
+          i {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+  .tag {
+    padding: 32px 39px 32px 32px;
+    border: 1px solid $secondary-color;
+    border-radius: 16px;
+    margin-top: 32px;
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: $primary-color;
+      margin-bottom: 16px;
+    }
+    .first_tag {
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 16px;
+      &:last-child {
+        flex-wrap: wrap;
+      }
+      li {
+        padding: 16px;
+        border: 1px solid $secondary-color;
+        border-radius: 8px;
+        width: fit-content;
+        a {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  .RecentPost {
+    margin-top: 32px;
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: $primary-color;
+      margin-bottom: 16px;
+    }
+    .img_txt {
+      display: flex;
+      margin-bottom: 16px;
+      gap: 32px;
+      align-items: center;
+      img {
+        width: 70px;
+        height: 85px;
+      }
+      .txt {
+        p {
+          &:first-child {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: $primary-color;
+            margin-bottom: 16px;
+          }
+          &:last-child {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: $secondary-color;
+            span {
+              color: $brand-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sports_slid {
+    padding-bottom: 80px;
+    .sports {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 16px;
+      img {
+        width: 100%;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+      }
+      h3 {
+        margin-top: 32px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: $primary-color;
+        padding: 0 32px;
+        width: 312px;
+        margin-bottom: 16px;
+      }
+      p {
+        padding: 0 32px;
+        &:nth-child(3) {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $secondary-color;
+          margin-bottom: 16px;
+        }
+        &:last-child {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: $primary-color;
+          padding-bottom: 32px;
+          span {
+            color: $brand-color;
+          }
+        }
+      }
+    }
+    .pre_btn {
+      position: absolute;
+      top: 101%;
+      left: 38%;
+      cursor: pointer;
+    }
+    .next_btn {
+      position: absolute;
+      top: 101%;
+      right: 38%;
+      cursor: pointer;
+    }
+    ul {
+      padding: 0;
+      display: flex;
+      position: absolute;
+      gap: 24px;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      li {
+        button {
+          padding: 6px 12px;
+          border: 1px solid $secondary-color;
+          transition: all 0.4s;
+          border-radius: 8px;
+          &:hover {
+            background: $brand-color;
+            color: #fff;
+            border: 1px solid $brand-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
 @import "../variable/variable";
 * {
   margin: 0;
@@ -58,18 +58,29 @@ li {
   }
 }
 .small_arr {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    display: flex;
-    gap: 5px;
-    a {
-      color: $secondary-color;
-      &:hover {
-        color: $brand-color;
-      }
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+  a {
+    color: $secondary-color;
+    &:hover {
+      color: $brand-color;
     }
   }
+}
+.submit {
+  padding: 16px 57px;
+  background: $brand-color;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 60px;
+  border: none;
+}
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Roboto', sans-serif;

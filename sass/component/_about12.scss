@@ -1,0 +1,163 @@
+@import "../variable/variable";
+#about12 {
+  padding-top: 34px;
+  padding-bottom: 120px;
+  .check_txt {
+    .check_flex {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: $brand-color;
+        span {
+          width: 56px;
+          height: 56px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid $brand-color;
+          background: transparent;
+          color: $brand-color;
+        }
+      }
+      .line {
+        width: 324px;
+        height: 2px;
+        background-color: $secondary-color;
+      }
+    }
+  }
+  .from {
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: $primary-color;
+      margin-bottom: 32px;
+    }
+    #buyerarea {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $secondary-color;
+      margin-bottom: 32px;
+    }
+  }
+  .input_boxs {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    width: 100%;
+    .first_nam {
+      width: 100%;
+      margin-bottom: 32px;
+      input {
+        width: 100%;
+        height: 58px;
+        border-radius: 8px;
+        border: 1px solid $secondary-color;
+      }
+    }
+  }
+  .summer_box {
+    padding: 32px 25px;
+    border: 1px solid $secondary-color;
+    border-radius: 8px;
+    .summery {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: $primary-color;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+    .summery_txt {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      &:nth-child(4) {
+        padding-bottom: 32px;
+        border-bottom: 1px solid $secondary-color;
+      }
+      &:nth-child(7) {
+        padding-bottom: 32px;
+        border-bottom: 1px solid $secondary-color;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: $primary-color;
+        span {
+          margin-right: 32px;
+        }
+      }
+      h4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: $primary-color;
+      }
+      .rate {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: $brand-color;
+      }
+    }
+    .payment {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      color: $primary-color;
+      margin-bottom: 32px;
+    }
+    .paycard {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 56px;
+      a {
+        padding: 10px 9px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: $primary-color;
+        border: 1px solid $secondary-color;
+        transition: all 0.4s;
+        border-radius: 8px;
+        width: max-content;
+        &:hover {
+          background: $primary-color;
+          color: #fff;
+        }
+      }
+    }
+    .checOut {
+      padding: 18px 135px;
+      background: $brand-color;
+      color: #fff;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+    .backcard {
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 32px;
+    }
+  }
+}

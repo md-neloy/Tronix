@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-13</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ======== menu part start ============ -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+          style="margin-left: 128px"
+        >
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="justify-content: center"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 hnav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home4.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home14.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search here"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <a href="#" class="mail_icon"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="#" class="mail_icon"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- ======== menu part end ============ -->
+    <!-- ======== looking part start ========== -->
+    <section id="looking">
+      <div class="container">
+        <p class="small_arr">
+          <a href="./index.html">Home</a
+          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><a href="./home9.html">Latest Blog </a
+          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><a href="./home14.html">Contact Us</a>
+        </p>
+        <h2>What are you looking for?</h2>
+        <div class="look_search">
+          <a href="#"><img src="img/searchlogo2.svg" alt="searchlogo" /></a>
+          <input type="search" />
+          <button class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <p class="lstsrc">Your Lastest Search</p>
+        <div class="laptops">
+          <a href="#">Smartphone</a>
+          <a href="#">Laptops</a>
+          <a href="#">Headphones</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="wrapper">
+              <div class="scroll">
+                <h3><li>All Categories</li></h3>
+                <ul class="scrolling-container">
+                  <li>
+                    <a href="#">Computer & Laptop <span>(25)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Mobile & Tablet <span>(125)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Camera <span>(150)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">TV & Smart Box <span>(75)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Home Appliance <span>(75)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Smart Watch <span>(45)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Microphone & Audio <span>(55)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Gaming <span> (40)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Printer <span>(14)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Accessories <span>(32)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">More Categories <span>(10)</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="filter">
+                <div class="accordion according_filter" id="accordionExample">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Filter by Price
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body px-0 py-0">
+                        <div class="slidecontainer">
+                          <input
+                            type="range"
+                            min="1"
+                            max="100"
+                            value="50"
+                            class="slider"
+                            id="myRange"
+                          />
+                        </div>
+                        <p><span>Price</span>: $100 - $250</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="location_filter">
+                <div class="accordion local_filter" id="accordionExample">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseTwo"
+                      >
+                        Filter by Location
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body px-0 py-0">
+                        <div class="slidecontainer">
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color">Jakarta</span></label
+                          >
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color">Yogyakarta</span></label
+                          >
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color">Bandung</span></label
+                          >
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color">Semarang</span></label
+                          >
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color">Surabaya</span></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="star_filter">
+                <div class="accordion local_filter" id="accordionExample">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                      >
+                        Filter by Rating
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body px-0 py-0">
+                        <div class="slidecontainer">
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color"
+                              ><i class="fa-solid fa-star"></i></span
+                          ></label>
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color"
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i></span
+                          ></label>
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color"
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i></span
+                          ></label>
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color"
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i></span
+                          ></label>
+                          <label class="main"
+                            ><input type="checkbox" class="check" /><span
+                              class="custombox"
+                            ></span
+                            ><span class="color"
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i
+                              ><i class="fa-solid fa-star"></i></span
+                          ></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter1">
+                <div
+                  class="accordion accordion-flush local_filter"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour"
+                      >
+                        Filter by Brand
+                      </button>
+                    </h3>
+                    <div
+                      id="flush-collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <!-- add your code here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter1">
+                <div
+                  class="accordion accordion-flush local_filter"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFive"
+                      >
+                        Filter by Payment
+                      </button>
+                    </h3>
+                    <div
+                      id="flush-collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <!-- add your code here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter1">
+                <div
+                  class="accordion accordion-flush local_filter"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSix"
+                      >
+                        Filter by Promotion
+                      </button>
+                    </h3>
+                    <div
+                      id="flush-collapseSix"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <!-- add your code here -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="filter1">
+                <div
+                  class="accordion accordion-flush local_filter"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseSeven"
+                      >
+                        Filter by Shipment
+                      </button>
+                    </h3>
+                    <div
+                      id="flush-collapseSeven"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <button class="btns">Filter</button>
+              <a href="#" class="reset">Reset Filter</a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="viewing">
+              <p>Viewing <span>20</span> of <span>160</span> product</p>
+              <div class="icon">
+                <i class="fa-solid fa-bars"></i>
+                <img src="img/searchlogo2.svg" alt="">
+                <p><span>Sort by:</span> <select>
+                  <option>Newest Item</option>
+                  <option>Newest Item</option>
+                  <option>Newest Item</option>
+                  <option>Newest Item</option>
+                </select></p>
+              </div>
+            </div>
+            <div class="portable_slide">
+              <div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portable">
+                  <div class="image">
+                    <img src="img/flash4.png" alt="">
+                  </div>
+                  <div class="portable_txt">
+                    <div class="star">
+                        <p><span>5.0</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>Review (12)</p>
+                        <span class="line"></span>
+                        <p></span>Sold 99</p>
+                    </div>
+                    <h3>USB Speaker Portable</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+                    <a href="#">Add to Cart</a>
+                  </div>
+                  <div class="price">
+                    <del>$39.99</del>
+                    <h4>$29.99</h4>
+                    <div class="love">
+                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== looking part end ========== -->
+    <!-- ======== newsletter3 part start ======== -->
+    <section id="newsletter3">
+      <div class="container d-flex flx">
+        <div class="text_div">
+          <div class="icon"><i class="fa-solid fa-newspaper"></i></div>
+          <div class="txt">
+            <h3>Join our newsletter now!</h3>
+            <p>Register now and get our latest updates and promos.</p>
+          </div>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="Enter your email" />
+          <button>search</button>
+        </div>
+      </div>
+    </section>
+    <!-- ======== newsletter3 part end ======== -->
+    <!-- ========= footer3 part start ========== -->
+    <section id="footer3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Tronix</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <ul style="padding-left: 0">
+              <li>Contact</li>
+              <li>
+                <a href="#"><i class="fa-solid fa-phone"></i>+1234567890</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-envelope"></i>support@tronix.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-4">
+                <ul>
+                  <li>Company</li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Products</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Careers</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <ul>
+                  <li>Information</li>
+                  <li>
+                    <a href="#">Help Center </a>
+                  </li>
+                  <li>
+                    <a href="#">Payment Methods</a>
+                  </li>
+                  <li>
+                    <a href="#">Return & Refund</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <ul>
+                  <li>Follow Us</li>
+                </ul>
+                <div class="icon">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="low_footer">
+        <div class="container">
+          <div class="final_txt">
+            <p>Copyright © 2021 Tronix. All Right Reseved</p>
+          </div>
+          <div class="bank_logo">
+            <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+            <a href="#"><i class="fa-brands fa-paypal"></i></a>
+            <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========= footer3 part end ========== -->
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
