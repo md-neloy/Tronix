@@ -1,4 +1,7 @@
 #navbar {
+  .respon {
+    margin-left: 180px;
+  }
   input {
     background: #efefef;
     color: #fff;
@@ -12,7 +15,7 @@
     background: #f46b5b;
     color: #fff;
     border: none;
-    span{
+    span {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -31,30 +34,31 @@
     color: #f46b5b;
     transition: all 0.4s;
     margin-left: 32px;
+    font-size: 18px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     &:hover {
       background: #f46b5b;
       color: #fff;
     }
   }
-  .hnav{
-    a{
-       font-family: 'Poppins', sans-serif;
-        color:#383838;
-        font-size:18px;
-        font-weight: 400;
+  .hnav {
+    a {
+      font-family: "Poppins", sans-serif;
+      color: #383838;
+      font-size: 18px;
+      font-weight: 400;
     }
   }
 }
-#second_menu{
-  ul{
+#second_menu {
+  ul {
     justify-content: center;
-    margin:0 auto;
-    li{
-      a{
-        font-family: 'Poppins', sans-serif;
-        color:#383838;
-        font-size:18px;
+    margin: 0 auto;
+    li {
+      a {
+        font-family: "Poppins", sans-serif;
+        color: #383838;
+        font-size: 18px;
         font-weight: 400;
       }
     }

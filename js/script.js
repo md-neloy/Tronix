@@ -57,8 +57,8 @@ $(".product_slide").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -178,10 +178,17 @@ $(".slide2").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
+      },
+    },
+    {
+      breakpoint: 990,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
       },
     },
     {
@@ -383,5 +390,26 @@ function togglePassword() {
     input.type = "text";
   } else {
     input.type = "password";
+  }
+}
+
+let checker = document.querySelector(".toggle");
+function check() {
+  let checkinputs = document.querySelectorAll(".checked");
+  checkinputs.forEach((checkedinput) => {
+    if (checker.checked) {
+      checkedinput.checked = true;
+    } else {
+      checkedinput.checked = false;
+    }
+  });
+}
+function reverse() {
+  let checkinputsa = document.querySelectorAll(".checked");
+
+  if (checkinputsa.checked === true) {
+    checker.checked = true;
+  } else {
+    checker.checked = false;
   }
 }

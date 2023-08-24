@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home-16</title>
+    <title>Home-11</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -88,64 +88,128 @@
       </div>
     </nav>
     <!-- ======== menu part end ============ -->
-    <!-- ======== account part start ========= -->
-    <section id="account">
+    <!-- ======== cart part start ============ -->
+    <section id="cart">
       <div class="container">
-        <div class="profile">
-          <div class="myprofile">
-            <h3>My Profile</h3>
-            <ul class="px-0">
-              <li>
-                <a href="#">Account Details</a>
-              </li>
-              <li>
-                <a href="#">Orders</a>
-              </li>
-              <li>
-                <a href="#">Wallet</a>
-              </li>
-              <li>
-                <a href="#">Addresses</a>
-              </li>
-              <li>
-                <a href="#">My Favorites</a>
-              </li>
-              <li>
-                <a href="#">Loyalty</a>
-              </li>
-              <li>
-                <a href="#">Logout</a>
-              </li>
-            </ul>
+        <p class="small_arr">
+          <a href="./index.html">Home</a
+          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><a href="./home9.html">Latest Blog </a
+          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><a href="./home13.html">Looking For</a>
+        </p>
+        <div class="common_text check_txt">
+          <h2>Checkout</h2>
+          <div class="check_flex">
+            <p><span>1</span>My cart</p>
+            <span class="line"></span>
+            <p><span>2</span>Checkout</p>
           </div>
-          <div class="account_data">
-            <h3>Account Details</h3>
-            <p>Already have an account? Please, <a href="#">login!</a></p>
-            <div class="name">
-              <div class="first_name">
-                <p>First Name</p>
-                <input type="text" />
-              </div>
-              <div class="first_name">
-                <p>Last Name</p>
-                <input type="text" />
-              </div>
-          </div>
-            <div class="name">
-              <div class="first_name">
-                <p>Email</p>
-                <input type="email" />
-              </div>
-              <div class="first_name">
-                <p>Phone</p>
-                <input type="number" id="number" inputmode="numeric" />
-              </div>
-          </div>
-          <button class="submit">Save</button>
         </div>
+        <label class="slct">
+                    <input type="checkbox" onclick="check()" class="toggle"/>
+                    <span class="slt_all"></span>
+                    <p>Select All</p>
+                </label>
+        <div class="select_flex">
+            <div class="cart_selector">
+                <div class="portable_slct">
+                    <div class="flex_img">
+                        <div>
+                            <label class="slct">
+                            <input type="checkbox" class="checked" onclick="reverse()" value="box" />
+                            <span class="custom"></span>
+                        </div>
+                        <div class="image">
+                            <img src="img/musicBox.png" alt="">
+                        </div>
+                    </div>
+                    <div class="txt">
+                        <div class="text_line">
+                            <h3>USB Speaker Portable</h3>
+                            <p>$100.99</p>
+                            <div class="quantity_flex">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <span>1</span>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="cross">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portable_slct">
+                    <div class="flex_img">
+                        <div>
+                            <label class="slct">
+                            <input type="checkbox" class="checked" onclick="reverse()" value="box" />
+                            <span class="custom"></span>
+                        </div>
+                        <div class="image">
+                            <img src="img/musicBox.png" alt="">
+                        </div>
+                    </div>
+                    <div class="txt">
+                        <div class="text_line">
+                            <h3>USB Speaker Portable</h3>
+                            <p>$100.99</p>
+                            <div class="quantity_flex">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <span>1</span>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="cross">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portable_slct">
+                    <div class="flex_img">
+                        <div>
+                            <label class="slct">
+                            <input type="checkbox" class="checked" onclick="reverse()"/>
+                            <span class="custom"></span>
+                        </div>
+                        <div class="image">
+                            <img src="img/musicBox.png" alt="">
+                        </div>
+                    </div>
+                    <div class="txt">
+                        <div class="text_line">
+                            <h3>USB Speaker Portable</h3>
+                            <p>$100.99</p>
+                            <div class="quantity_flex">
+                                <button><i class="fa-solid fa-minus"></i></button>
+                                <span>1</span>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="cross">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="cupon">
+                    <img src="img/hk.png" alt="hk">
+                    <a href="#">Have a coupon code? <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                </div>
+                <div class="summary_txt">
+                    <h3>Summary</h3>
+                    <p><span class="txt">Total</span><span class="dlr">$202.00</span></p>
+                    <button class="submit">Checkout</button>
+                    <a href="#">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+        
       </div>
     </section>
-    <!-- ======== account part end ========= -->
+    <!-- ======== cart part end ============ -->
+
     <!-- ======== newsletter3 part start ======== -->
     <section id="newsletter3">
       <div class="container d-flex flx">
