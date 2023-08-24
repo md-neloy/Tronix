@@ -8,7 +8,7 @@
     font-size: 31px !important;
   }
   /* ========= collecion2 part end ============= */
-   /* ========= ariavl2 part start ============= */
+  /* ========= ariavl2 part start ============= */
   #ariavl2 .arr_div {
     width: 360px !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -25,15 +25,15 @@
     margin-bottom: 20px !important;
   }
   #fsale .airpods {
-	width: 100% !important;
-}
+    width: 100% !important;
+  }
   /* ========= fsale part end ============= */
   /* ========= product2 part end ============= */
   #product2 .arr_div {
     width: 370px !important;
   }
   /* ========= product2 part end ============= */
-    /* ========= rated2 part end ============= */
+  /* ========= rated2 part end ============= */
   #rated2 .ratedDiv {
     width: 275px !important;
   }
@@ -76,7 +76,7 @@
     flex-wrap: wrap;
   }
   /* ========= blog part end ============= */
-   /* ========= footer part end ============= */
+  /* ========= footer part end ============= */
   #footer ul {
     padding: 0 !important;
   }
@@ -579,7 +579,7 @@
     margin: 0 !important;
   }
   #banner2 .ban_cont h1 {
-    font-size: 12px !important;
+    font-size: 17px !important;
     width: 100% !important;
     margin: 0 auto !important;
   }
