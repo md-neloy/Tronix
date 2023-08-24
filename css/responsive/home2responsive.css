@@ -1,0 +1,812 @@
+@media (max-width: 1399.98px) {
+  /* ========= collecion2 part start ============= */
+  #collecion2 .collection {
+    width: 540px !important;
+    height: 510px !important;
+  }
+  #collecion2 .collection .text h3 {
+    font-size: 31px !important;
+  }
+  /* ========= collecion2 part end ============= */
+   /* ========= ariavl2 part start ============= */
+  #ariavl2 .arr_div {
+    width: 360px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+  }
+  /* ========= ariavl2 part end ============= */
+  /* ========= fsale part start ============= */
+  #fsale h2 {
+    font-size: 40px !important;
+    margin-bottom: 8px !important;
+  }
+  #fsale .time_cnt {
+    gap: 5px;
+    margin-bottom: 20px !important;
+  }
+  #fsale .airpods {
+	width: 100% !important;
+}
+  /* ========= fsale part end ============= */
+  /* ========= product2 part end ============= */
+  #product2 .arr_div {
+    width: 370px !important;
+  }
+  /* ========= product2 part end ============= */
+    /* ========= rated2 part end ============= */
+  #rated2 .ratedDiv {
+    width: 275px !important;
+  }
+  #rated2 .other_side {
+    margin: 75px 0 0 !important;
+  }
+  #rated2 .other_side a {
+    font-size: 40px !important;
+  }
+  /* ========= rated2 part end ============= */
+  /* ========= blog part end ============= */
+  #blog img {
+    width: 100% !important;
+  }
+  #blog .text_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+    padding: 0 5px;
+    padding-bottom: 5px;
+  }
+  #blog .text_area .text {
+    font-size: 16px !important;
+    margin-top: 32px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area:first-child {
+    margin-top: 10px !important;
+  }
+  #blog .text_area .imag {
+    margin: auto;
+  }
+  #blog .text_area .imag img {
+    height: 85px !important;
+  }
+  #blog .text_area {
+    flex-wrap: wrap;
+  }
+  /* ========= blog part end ============= */
+   /* ========= footer part end ============= */
+  #footer ul {
+    padding: 0 !important;
+  }
+  #footer ul li a {
+    font-size: 16px !important;
+    flex-wrap: wrap;
+  }
+  #footer .low_footer {
+    margin-top: 5px !important;
+    padding: 30px 0 30px !important;
+  }
+  #footer .low_footer .container .final_txt {
+    font-size: 12px !important;
+  }
+  /* ========= footer part end ============= */
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  /* ========= menu part start ============= */
+  .frm2 input {
+    width: fit-content !important;
+  }
+  /* ========= menu part end ============= */
+  /* ========= collecion2 part start ============= */
+  #collecion2 .collection {
+    width: 460px !important;
+    height: 510px !important;
+  }
+  #collecion2 .collection .text h3 {
+    font-size: 31px !important;
+  }
+  /* ========= collecion2 part end ============= */
+  /* ========= ariavl2 part start ============= */
+  #ariavl2 .arr_div {
+    width: 300px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+  }
+  /* ========= ariavl2 part end ============= */
+  /* ========= fsale part start ============= */
+  #fsale h2 {
+    font-size: 40px !important;
+    margin-bottom: 8px !important;
+  }
+  #fsale .time_cnt {
+    gap: 5px;
+    margin-bottom: 20px !important;
+  }
+  /* ========= fsale part end ============= */
+  /* ========= product2 part end ============= */
+  #product2 .arr_div {
+    width: 300px !important;
+  }
+  /* ========= product2 part end ============= */
+  /* ========= rated2 part end ============= */
+  #rated2 .ratedDiv {
+    width: 235px !important;
+  }
+  #rated2 .other_side {
+    margin: 75px 0 0 !important;
+  }
+  #rated2 .other_side a {
+    font-size: 40px !important;
+  }
+  /* ========= rated2 part end ============= */
+  /* ========= blog part end ============= */
+  #blog img {
+    width: 100% !important;
+  }
+  #blog .text_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+    padding: 0 5px;
+    padding-bottom: 5px;
+  }
+  #blog .text_area .text {
+    font-size: 16px !important;
+    margin-top: 32px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area:first-child {
+    margin-top: 10px !important;
+  }
+  #blog .text_area .imag {
+    margin: auto;
+  }
+  #blog .text_area .imag img {
+    height: 85px !important;
+  }
+  #blog .text_area {
+    flex-wrap: wrap;
+  }
+  /* ========= blog part end ============= */
+
+  /* ========= footer part end ============= */
+  #footer .text {
+    font-size: 14px !important;
+    width: 100% !important;
+    margin: 12px 0 25px !important;
+  }
+  #footer .icon {
+    margin-bottom: 10px;
+  }
+  #footer ul {
+    padding: 0 !important;
+  }
+  #footer ul li a {
+    font-size: 16px !important;
+    flex-wrap: wrap;
+  }
+  #footer .low_footer {
+    margin-top: 5px !important;
+    padding: 30px 0 30px !important;
+  }
+  #footer .low_footer .container .final_txt {
+    font-size: 12px !important;
+  }
+  /* ========= footer part end ============= */
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  /* ========= banner part start ============= */
+  #banner2 .ban_cont p {
+    font-size: 22px !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #banner2 .slide21 ul {
+    padding: 0 !important;
+    bottom: 0% !important;
+  }
+  #banner2 .slide21 ul li button {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  /* ========= banner part end ============= */
+  /* ========= collecion2 part end ============= */
+  #collecion2 .collection {
+    margin-bottom: 20px !important;
+  }
+  /* ========= collecion2 part end ============= */
+  /* ========= catagory2 part end ============= */
+  #catagory2 {
+    padding: 40px 0 !important;
+  }
+  #catagory2 h3 {
+    font-size: 46px !important;
+    text-align: center;
+  }
+  #catagory2 .items {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  #catagory2 .items .item {
+    text-align: center;
+    width: 239px;
+  }
+  #catagory2 .items .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  /* ========= catagory2 part end ============= */
+  /* ========= ariavl2 part end ============= */
+  #ariavl2 {
+    padding: 40px 0 !important;
+  }
+  #ariavl2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+  }
+  /* ========= ariavl2 part end ============= */
+  /* ========= fsale part end ============= */
+  #fsale {
+    padding: 60px 0 !important;
+  }
+  #fsale .time_cnt {
+    margin-bottom: 25px !important;
+    justify-content: flex-start !important;
+    gap: 32px !important;
+  }
+  #fsale a {
+    margin-bottom: 10px !important;
+  }
+  /* ========= fsale part end ============= */
+  /* ========= product2 part end ============= */
+  #product2 {
+    padding: 60px 0 !important;
+  }
+
+  #product2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  #product2 .arr_div h3 {
+    font-size: 24px !important;
+    margin-top: 20px !important;
+  }
+  #product2 .arr_div .btn {
+    margin: 20px auto 18px !important;
+  }
+  /* ========= product2 part end ============= */
+  /* ========= rated2 part end ============= */
+  #rated2 {
+    padding: 0 !important;
+  }
+  #rated2 .ratedDiv {
+    margin-bottom: 20px;
+  }
+  #rated2 .ratedDiv {
+    width: 100% !important;
+  }
+  #rated2 .other_side {
+    margin: 20px 0 0 !important;
+    flex-wrap: wrap !important;
+  }
+  #rated2 .other_side a {
+    font-size: 34px !important;
+  }
+  #rated2 .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+  }
+  /* ========= rated2 part end ============= */
+  /* ========= blog part end ============= */
+  #blog img {
+    width: 100% !important;
+  }
+  #blog .text_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+    padding: 0 5px;
+    padding-bottom: 5px;
+  }
+  #blog .text_area .text {
+    font-size: 16px !important;
+    margin-top: 32px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area:first-child {
+    margin-top: 10px !important;
+  }
+  #blog .text_area .imag {
+    margin: auto;
+  }
+  #blog .text_area .imag img {
+    height: 85px !important;
+  }
+  /* ========= blog part end ============= */
+  /* ========= newsletter part end ============= */
+  #newsletter {
+    padding: 50px 0px !important;
+  }
+  /* ========= newsletter part end ============= */
+  /* ========= footer part end ============= */
+  #footer .text {
+    font-size: 14px !important;
+    width: 100% !important;
+    margin: 12px 0 25px !important;
+  }
+  #footer .icon {
+    margin-bottom: 10px;
+  }
+  #footer ul {
+    padding: 0 !important;
+  }
+  #footer .low_footer {
+    margin-top: 5px !important;
+    padding: 30px 0 30px !important;
+  }
+  #footer .low_footer .container .final_txt {
+    font-size: 12px !important;
+  }
+  /* ========= footer part end ============= */
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  /* ========= banner part start ============= */
+  #banner2 .ban_cont p {
+    font-size: 16px !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #banner2 .ban_cont h1 {
+    font-size: 31px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  #banner2 .slide21 ul {
+    padding: 0 !important;
+    bottom: 0% !important;
+  }
+  #banner2 .slide21 ul li button {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  /* ========= banner part end ============= */
+  /* ========= collecion2 part end ============= */
+  #collecion2 {
+    padding: 40px 0 0 !important;
+  }
+  #collecion2 .collection {
+    width: 100% !important;
+    height: fit-content !important;
+    margin-bottom: 20px !important;
+  }
+  #collecion2 .collection .text {
+    padding: 32px 32px !important;
+    width: 75% !important;
+  }
+  #collecion2 .collection .text h3 {
+    font-size: 28px !important;
+    width: 100% !important;
+  }
+  #collecion2 .collection .text p {
+    font-size: 16px !important;
+  }
+
+  /* ========= collecion2 part end ============= */
+  /* ========= catagory2 part end ============= */
+  #catagory2 {
+    padding: 40px 0 !important;
+  }
+  #catagory2 .items {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  #catagory2 .items .item {
+    text-align: center;
+    width: 239px;
+  }
+  #catagory2 .items .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  /* ========= catagory2 part end ============= */
+  /* ========= ariavl2 part end ============= */
+  #ariavl2 {
+    padding: 40px 0 !important;
+  }
+  #ariavl2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+  }
+  /* ========= ariavl2 part end ============= */
+  /* ========= fsale part end ============= */
+  #fsale {
+    padding: 60px 0 !important;
+  }
+  #fsale .time_cnt {
+    margin-bottom: 25px !important;
+    justify-content: flex-start !important;
+    gap: 32px !important;
+  }
+  #fsale .time_cnt .hr {
+    width: 70px !important;
+  }
+  #fsale p {
+    margin-bottom: 35px !important;
+  }
+  #fsale .time_cnt .hr p {
+    margin-bottom: 0 !important;
+  }
+  #fsale a {
+    margin-bottom: 10px !important;
+  }
+  #fsale .airpods {
+    width: 100% !important;
+  }
+  /* ========= fsale part end ============= */
+  /* ========= product2 part end ============= */
+  #product2 {
+    padding: 60px 0 !important;
+  }
+
+  #product2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  #product2 .arr_div h3 {
+    font-size: 24px !important;
+    margin-top: 20px !important;
+  }
+  #product2 .arr_div .btn {
+    margin: 20px auto 18px !important;
+  }
+  /* ========= product2 part end ============= */
+  /* ========= rated2 part end ============= */
+  #rated2 {
+    padding: 0 !important;
+  }
+  #rated2 .ratedDiv {
+    margin-bottom: 20px;
+  }
+  #rated2 .ratedDiv {
+    width: 100% !important;
+  }
+  #rated2 .other_side {
+    margin: 20px 0 0 !important;
+    flex-wrap: wrap !important;
+  }
+  #rated2 .other_side a {
+    font-size: 34px !important;
+  }
+  #rated2 .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+  }
+  /* ========= rated2 part end ============= */
+  /* ========= blog part end ============= */
+  #blog img {
+    width: 100% !important;
+  }
+  #blog .text_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+    padding: 0 5px;
+    padding-bottom: 5px;
+  }
+  #blog .text_area .text {
+    font-size: 16px !important;
+    margin-top: 32px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area:first-child {
+    margin-top: 10px !important;
+  }
+  #blog .text_area .imag {
+    margin: auto;
+  }
+  #blog .text_area .imag img {
+    height: 85px !important;
+  }
+  /* ========= blog part end ============= */
+  /* ========= newsletter part end ============= */
+  #newsletter {
+    padding: 50px 0px !important;
+  }
+  #newsletter h2 {
+    font-size: 36px !important;
+  }
+  #newsletter p {
+    font-size: 18px !important;
+    margin: 16px 0 22px !important;
+  }
+  #newsletter .search {
+    width: 100% !important;
+    padding: 0 16px 0 16px !important;
+  }
+  #newsletter .search button {
+    font-size: 14px !important;
+    padding: 12px 18px !important;
+    border-radius: 10px !important;
+  }
+  /* ========= newsletter part end ============= */
+  /* ========= footer part end ============= */
+  #footer .text {
+    font-size: 14px !important;
+    width: 100% !important;
+    margin: 12px 0 25px !important;
+  }
+  #footer .icon {
+    margin-bottom: 10px;
+  }
+  #footer ul {
+    padding: 0 !important;
+  }
+  #footer .low_footer {
+    margin-top: 5px !important;
+    padding: 30px 0 30px !important;
+  }
+  #footer .low_footer .container .final_txt {
+    font-size: 12px !important;
+  }
+  /* ========= footer part end ============= */
+}
+/* ===========================
+    ================================== 
+    ================================== */
+
+@media (max-width: 575.98px) {
+  /* ========= banner part start ============= */
+  #banner2 .ban_cont p {
+    font-size: 9px !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  #banner2 .ban_cont h1 {
+    font-size: 12px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  #banner2 .slide21 ul {
+    padding: 0 !important;
+    bottom: 0% !important;
+  }
+  #banner2 .slide21 ul li button {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  /* ========= banner part end ============= */
+  /* ========= collecion2 part end ============= */
+  #collecion2 {
+    padding: 40px 0 0 !important;
+  }
+  #collecion2 .collection {
+    width: 100% !important;
+    height: fit-content !important;
+    margin-bottom: 20px !important;
+  }
+  #collecion2 .collection .text {
+    padding: 32px 32px !important;
+    width: 70% !important;
+  }
+  #collecion2 .collection .text h3 {
+    font-size: 14px !important;
+    width: 100% !important;
+  }
+  #collecion2 .collection .text p {
+    font-size: 10px !important;
+  }
+
+  /* ========= collecion2 part end ============= */
+  /* ========= catagory2 part end ============= */
+  #catagory2 {
+    padding: 40px 0 !important;
+  }
+  #catagory2 .items {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  #catagory2 .items .item {
+    width: 100% !important;
+  }
+  #catagory2 .items .item:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  /* ========= catagory2 part end ============= */
+  /* ========= ariavl2 part end ============= */
+  #ariavl2 {
+    padding: 40px 0 !important;
+  }
+  #ariavl2 .head_txt h2 {
+    font-size: 32px !important;
+  }
+  #ariavl2 .head_txt a {
+    font-size: 18px !important;
+  }
+  #ariavl2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  /* ========= ariavl2 part end ============= */
+  /* ========= fsale part end ============= */
+  #fsale {
+    padding: 60px 0 !important;
+  }
+  #fsale h2 {
+    font-size: 32px !important;
+  }
+  #fsale .time_cnt {
+    margin-bottom: 25px !important;
+  }
+  #fsale .sale {
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+  }
+  #fsale .time_cnt .hr {
+    width: 70px !important;
+  }
+  #fsale h3 {
+    font-size: 24px !important;
+    margin-bottom: 16px !important;
+  }
+  #fsale p {
+    font-size: 14px !important;
+    margin-bottom: 20px !important;
+  }
+  #fsale a {
+    padding: 10px 16px !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+  #fsale .airpods {
+    width: 100% !important;
+  }
+  /* ========= fsale part end ============= */
+  /* ========= product2 part end ============= */
+  #product2 {
+    padding: 60px 0 !important;
+  }
+  #product2 .head_txt h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #383838;
+  }
+  #product2 .head_txt a {
+    font-size: 18px;
+  }
+  #product2 .arr_div {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  #product2 .arr_div h3 {
+    font-size: 24px !important;
+    margin-top: 20px !important;
+  }
+  #product2 .arr_div .btn {
+    margin: 20px auto 18px !important;
+  }
+  /* ========= product2 part end ============= */
+  /* ========= rated2 part end ============= */
+  #rated2 {
+    padding: 0 !important;
+  }
+  #rated2 .head_txt h2 {
+    font-size: 32px;
+  }
+  .head_txt a {
+    font-size: 18px !important;
+  }
+  #rated2 .ratedDiv {
+    width: 100% !important;
+  }
+  #rated2 .ratedDiv {
+    margin-bottom: 20px;
+  }
+  #rated2 .other_side {
+    margin: 20px 0 0 !important;
+    flex-wrap: wrap !important;
+  }
+  #rated2 .other_side a {
+    font-size: 34px !important;
+  }
+  #rated2 .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+  }
+  /* ========= rated2 part end ============= */
+  /* ========= blog part end ============= */
+  #blog img {
+    width: 100% !important;
+  }
+  #blog .text {
+    width: 100% !important;
+    font-size: 18px !important;
+    margin-top: 20px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transition: all 0.4s;
+    padding: 0 5px;
+    padding-bottom: 5px;
+  }
+  #blog .text_area .text {
+    font-size: 16px !important;
+    margin-top: 32px !important;
+    margin-bottom: 16px !important;
+  }
+  #blog .text_area:first-child {
+    margin-top: 10px !important;
+  }
+  #blog .text_area .imag {
+    margin: auto;
+  }
+  #blog .text_area .imag img {
+    height: 85px !important;
+  }
+  /* ========= blog part end ============= */
+  /* ========= newsletter part end ============= */
+  #newsletter {
+    padding: 50px 0px !important;
+  }
+  #newsletter h2 {
+    font-size: 22px !important;
+  }
+  #newsletter p {
+    font-size: 11px !important;
+    margin: 16px 0 22px !important;
+  }
+  #newsletter .search {
+    width: 100% !important;
+    padding: 0 16px 0 16px !important;
+  }
+  #newsletter .search button {
+    font-size: 14px !important;
+    padding: 12px 18px !important;
+    border-radius: 10px !important;
+  }
+  /* ========= newsletter part end ============= */
+  /* ========= footer part end ============= */
+  #footer .text {
+    font-size: 14px !important;
+    width: 100% !important;
+    margin: 12px 0 25px !important;
+  }
+  #footer .icon {
+    margin-bottom: 10px;
+  }
+  #footer ul {
+    padding: 0 !important;
+  }
+  #footer .low_footer {
+    margin-top: 5px !important;
+    padding: 30px 0 30px !important;
+  }
+  #footer .low_footer .container .final_txt {
+    font-size: 12px !important;
+  }
+  /* ========= footer part end ============= */
+}

@@ -40,7 +40,7 @@ $(".product_slide").slick({
       breakpoint: 1400,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -49,7 +49,7 @@ $(".product_slide").slick({
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: true,
       },
@@ -103,7 +103,7 @@ $(".fsale_slid").slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
@@ -112,7 +112,7 @@ $(".fsale_slid").slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
@@ -121,7 +121,7 @@ $(".fsale_slid").slick({
         slidesToShow: 2,
         slidesToScroll: 3,
         infinite: true,
-        dots: true,
+        dots: false,
       },
     },
     {
@@ -161,7 +161,7 @@ $(".slide2").slick({
       breakpoint: 1400,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -170,7 +170,7 @@ $(".slide2").slick({
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: true,
       },

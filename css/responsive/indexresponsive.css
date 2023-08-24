@@ -1,6 +1,54 @@
-@media (min-width: 991.98px) and (max-width:1199.98px) { 
-   /* =========== index menu part start ================== */
- 
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  /* =========== index menu part start ================== */
+
+  .navbar {
+    padding: 0;
+    padding-bottom: 5px;
+  }
+  #navbar .container {
+    flex-wrap: nowrap;
+  }
+  #navbar .navbtn {
+    position: absolute;
+    right: 25px;
+  }
+  #navbar .nav_flex {
+    display: flex;
+  }
+  #navbar .mail_icon {
+    margin-left: 15px !important;
+  }
+  #navbar .frm {
+    margin: 5px 0 !important;
+  }
+  #navbar .signBtn {
+    padding: 13px 7px !important;
+    border-radius: 10px !important;
+    margin-left: 17px !important;
+  }
+  /* =========== index menu part end ================== */
+  /* =========== Home-1 banner part start ================== */
+  #banner .container {
+    left: 50%;
+  }
+  #banner .container p {
+    margin-top: 10px !important;
+  }
+  #banner .container a {
+    margin-top: 5px !important;
+  }
+
+  /* =========== Home-1 banner part end ================== */
+  /* =========== Home-1 flash_sale part start ================== */
+  #flash_sale .slide2 .pre_btn.slick-arrow {
+    right: 21% !important;
+  }
+
+  /* =========== Home-1 flash_sale part end ================== */
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  /* =========== index menu part start ================== */
+
   .navbar {
     padding: 0;
     padding-bottom: 5px;
@@ -18,19 +66,19 @@
   #navbar .nav_flex {
     display: flex;
   }
-#navbar .mail_icon {
-	margin-left: 15px !important;
-}
+  #navbar .mail_icon {
+    margin-left: 15px !important;
+  }
   #navbar .frm {
     margin: 5px 0 !important;
   }
-#navbar .signBtn {
-	padding: 13px 7px !important;
-	border-radius: 10px !important;
-	margin-left: 17px !important;
-}
+  #navbar .signBtn {
+    padding: 13px 7px !important;
+    border-radius: 10px !important;
+    margin-left: 17px !important;
+  }
   /* =========== index menu part end ================== */
-   /* =========== Home-1 banner part start ================== */
+  /* =========== Home-1 banner part start ================== */
   #banner .container {
     left: 50%;
   }
@@ -44,14 +92,14 @@
     margin-top: -35px !important;
     font-size: 16px !important;
   }
- 
+
   /* =========== Home-1 banner part end ================== */
-    /* =========== Home-1 catagory part start ================== */
+  /* =========== Home-1 catagory part start ================== */
   #catagory {
     padding: 50px 0 0px !important;
   }
   /* =========== Home-1 catagory part end ================== */
-    /* =========== Home-1 featured part start ================== */
+  /* =========== Home-1 featured part start ================== */
   #featured {
     padding: 25px 0 !important;
   }
@@ -68,9 +116,9 @@
     margin-bottom: 32px !important;
   }
   #featured .mike .div .music_hr {
-	width: 81px !important;
-	height: 93px !important;
-}
+    width: 81px !important;
+    height: 93px !important;
+  }
   #featured .offer .text p {
     font-size: 24px !important;
   }
@@ -89,13 +137,13 @@
     font-size: 16px;
   }
   /* =========== Home-1 featured part end ================== */
-   /* =========== Home-1 collection part start ================== */
+  /* =========== Home-1 collection part start ================== */
   #collection {
     padding: 60px 0 50px !important;
   }
   #collection .image .img_text {
-	width: 100% !important;
-}
+    width: 100% !important;
+  }
   /* =========== Home-1 collection part end ================== */
   /* =========== Home-1 flash_sale part start ================== */
   #flash_sale {
@@ -120,8 +168,7 @@
   }
 
   /* =========== Home-1 flash_sale part end ================== */
-
- }
+}
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   /* =========== index menu part start ================== */
@@ -678,6 +725,7 @@
     font-size: 36px !important;
   }
   .common_text p {
+    width: 100% !important;
     font-size: 16px !important;
   }
   #arrival .arrive_box {
@@ -808,4 +856,3 @@
   }
   /* =========== Home-1 product part end ================== */
 }
-/* "full pages design complete & only first page responsive is completed" */
