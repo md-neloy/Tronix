@@ -1,0 +1,159 @@
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  #looking h2 {
+    margin-top: 30px;
+  }
+  #looking .wrapper .location_filter .local_filter .main {
+    padding-left: 22px !important;
+  }
+  #looking .wrapper .star_filter .local_filter .main {
+    padding-left: 22px !important;
+  }
+  #looking .portable .image img {
+    width: 238px !important;
+    height: 268px !important;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  #looking h2 {
+    margin-top: 30px;
+  }
+  #looking .wrapper .location_filter .local_filter .main {
+    padding-left: 26px !important;
+  }
+  #looking .wrapper .star_filter .local_filter .main {
+    padding-left: 22px !important;
+  }
+  #looking .wrapper .star_filter .local_filter .main .color {
+    font-size: 13px !important;
+  }
+  #looking .wrapper .btns {
+    padding: 16px 55px !important;
+  }
+  /* =========== slider part css ============ */
+  #looking .portable {
+    gap: 12px !important;
+  }
+  #looking .portable .image img {
+    width: 238px !important;
+    height: 268px !important;
+  }
+  #looking .portable .star {
+    gap: 8px !important;
+  }
+  #looking .portable .star p {
+    font-size: 13px !important;
+  }
+  #looking .portable a {
+    padding: 10px 18px !important;
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #looking h2 {
+    margin-top: 30px;
+  }
+  #looking .viewing {
+    margin-top: 30px;
+  }
+  /* ============= slider part css ============== */
+  #looking .portable {
+    gap: 12px !important;
+  }
+  #looking .portable .image img {
+    width: 238px !important;
+    height: 268px !important;
+  }
+  #looking .portable .star {
+    gap: 8px !important;
+  }
+  #looking .portable .star p {
+    font-size: 13px !important;
+  }
+  #looking .portable a {
+    padding: 10px 18px !important;
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #looking h2 {
+    margin-top: 30px;
+  }
+  /* ============ slider part css =============== */
+  #looking .portable {
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 0;
+  }
+  #looking .portable .image img {
+    width: 100% !important;
+  }
+
+  #looking .portable .star {
+    justify-content: center !important;
+  }
+  #looking .portable h3 {
+    text-align: center;
+  }
+  #looking .portable p {
+    text-align: center;
+  }
+  #looking .portable a {
+    margin: 25px auto 0 !important;
+    display: block !important;
+    width: fit-content !important;
+  }
+  #looking .price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  #looking .price h4 {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #looking h2 {
+    font-size: 41px !important;
+    margin-top: 30px;
+  }
+  #looking .look_search a {
+    padding: 15px !important;
+    margin-right: 2px !important;
+  }
+  #looking .look_search {
+    margin-bottom: 35px !important;
+  }
+  #looking .look_search input {
+    width: 60% !important;
+  }
+  #looking .laptops {
+    gap: 5px !important;
+    margin-bottom: 40px !important;
+  }
+  #looking .lstsrc {
+    margin-bottom: 24px !important;
+  }
+  #looking .laptops a {
+    padding: 8px !important;
+    font-size: 14px !important;
+  }
+  #looking .viewing {
+    flex-wrap: wrap !important;
+    margin-top: 30px !important;
+  }
+  #looking .viewing p {
+    margin-bottom: 20px;
+  }
+
+  /* ============ slider part css =============== */
+  #looking .portable {
+    flex-wrap: wrap;
+  }
+  #looking .portable .image img {
+    width: 100% !important;
+  }
+  #looking .portable .star {
+    flex-wrap: wrap;
+  }
+}

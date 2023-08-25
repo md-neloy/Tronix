@@ -1,0 +1,104 @@
+@media (min-width: 1199.98px) and (max-width: 1399.98px){
+   #about .wrapper .star_filter .local_filter .main {
+	padding-left: 22px !important;
+} 
+#about .wrapper .btns {
+	padding: 16px 75px !important;
+}
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px){
+    #about .wrapper .location_filter .local_filter .main {
+	padding-left: 32px !important;
+}
+#about .wrapper .star_filter .local_filter .main {
+	padding-left: 22px !important;
+}
+#about .wrapper .star_filter .local_filter .main .color {
+	font-size: 13px !important;
+}
+#about .wrapper .btns {
+	padding: 16px 52px !important;
+}
+#about .list_product .ratedDiv .love a {
+	padding: 12px 12px !important;
+	font-size: 16px !important;
+}
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #about .wrapper .btns {
+    margin: 56px auto 0 !important;
+    display: block !important;
+  }
+  #about .savg .img {
+    margin: 70px auto 0 !important;
+  }
+  #about .savg .search_head {
+    font-size: 46px !important;
+  }
+  #about .savg .search_txt {
+    width: 100% !important;
+    margin: 0 auto 60px !important;
+  }
+  #about .list_product h2 {
+    margin: 0 !important;
+    text-align: start;
+  }
+  #about .head_txt a {
+    text-align: center;
+  }
+  #about .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #about .wrapper .btns {
+    margin: 56px auto 0 !important;
+    display: block !important;
+  }
+  #about .savg .img {
+    margin: 70px auto 0 !important;
+  }
+  #about .savg .search_head {
+    font-size: 46px !important;
+  }
+  #about .savg .search_txt {
+    width: 100% !important;
+    margin: 0 auto 60px !important;
+  }
+  #about .list_product h2 {
+    margin: 0 !important;
+    text-align: start;
+  }
+  #about .head_txt a {
+    text-align: center;
+  }
+  #about .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  #about {
+    padding: 0px 0 80px !important;
+  }
+  .small_arr {
+    font-size: 15px !important;
+  }
+  #about .savg .img {
+    margin: 70px auto 0 !important;
+  }
+  #about .savg .search_head {
+    font-size: 46px !important;
+  }
+  #about .savg .search_txt {
+    width: 100% !important;
+    margin: 0 auto 60px !important;
+  }
+  #about .list_product h2 {
+    font-size: 38px !important;
+    margin: 0 !important;
+    text-align: start;
+  }
+  #about .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}

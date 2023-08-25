@@ -1,0 +1,111 @@
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  #about6 .information {
+    flex-wrap: wrap;
+  }
+  #about6 .feture .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #about6 .information {
+    flex-wrap: wrap;
+  }
+  #about6 .information .item {
+    width: 48% !important;
+  }
+  #about6 .feture .other_side {
+    flex-wrap: wrap;
+  }
+  #about6 .feture .other_side a {
+    font-size: 32px !important;
+  }
+  #about6 .feture .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  #about6 .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #about6 .text {
+    width: 100% !important;
+    margin-bottom: 40px !important;
+  }
+  #about6 .information {
+    flex-wrap: wrap;
+  }
+  #about6 .information .item {
+    width: 48% !important;
+  }
+  #about6 .feture {
+    margin-top: 50px !important;
+  }
+  #about6 .feture h3 {
+    font-size: 34px !important;
+    margin-bottom: 18px !important;
+  }
+  #about6 .feture .other_side {
+    flex-wrap: wrap;
+  }
+  #about6 .feture .other_side a {
+    font-size: 36px !important;
+  }
+  #about6 .feture .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  #about6 .list_product h2 {
+    font-size: 38px !important;
+    text-align: start !important;
+  }
+  #about6 .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  #about6 {
+    padding: 30px 0 40px !important;
+  }
+  #about6 p {
+    font-size: 16px !important;
+  }
+  #about6 h2 {
+    font-size: 44px !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+  }
+  #about6 .text {
+    width: 100% !important;
+    margin-bottom: 40px !important;
+  }
+  #about6 .information {
+    flex-wrap: wrap;
+  }
+  #about6 .information .item {
+    width: 100% !important;
+  }
+  #about6 .feture {
+    margin-top: 50px !important;
+  }
+  #about6 .feture h3 {
+    font-size: 34px !important;
+    margin-bottom: 18px !important;
+  }
+  #about6 .feture .other_side {
+    flex-wrap: wrap;
+  }
+  #about6 .feture .other_side a {
+    font-size: 36px !important;
+  }
+  #about6 .feture .other_side a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  #about6 .list_product h2 {
+    font-size: 38px !important;
+    text-align: start !important;
+  }
+  #about6 .list_product .ratedDiv {
+    margin-bottom: 20px;
+  }
+}

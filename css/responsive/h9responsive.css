@@ -1,0 +1,19 @@
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #about9 .common_text p {
+    width: 100% !important;
+  }
+  #about9 .sports_slid .sports {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  #about9 .small_arr {
+    font-size: 16px !important;
+  }
+  #about9 .common_text h2 {
+    font-size: 48px !important;
+  }
+  #about9 .common_text p {
+    width: 100% !important;
+  }
+}

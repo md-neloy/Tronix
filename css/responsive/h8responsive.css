@@ -1,0 +1,99 @@
+@media (min-width: 1199.98px) and (max-width: 1399.98px){
+   #microphone .quantity_flex {
+	gap: 15px !important;
+	margin-top: 50px !important;
+} 
+#microphone .quantity_flex .anchor a {
+	padding: 16px 28px !important;
+}
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px){
+  #microphone .quantity_flex {
+	gap: 15px !important;
+	margin-top: 50px !important;
+}
+#microphone .quantity_flex .anchor a {
+	padding: 15px 16px !important;
+}
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    #microphone .small_arr {
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+  #microphone .rating .star {
+	flex-wrap: wrap;
+}
+#microphone .rating .star {
+	gap: 16px !important;
+}
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+  #microphone .microphone_for .image img {
+    height: 400px !important;
+  }
+  #microphone .small_arr {
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+  #microphone .rating .star {
+	flex-wrap: wrap;
+}
+#microphone .rating .star {
+	gap: 16px !important;
+}
+#microphone .rating .love p {
+    text-align: center !important;
+}
+#microphone .quantity_flex {
+	gap: 15px !important;
+	margin-top: 50px !important;
+}
+#microphone .quantity_flex .anchor a {
+	padding: 15px 16px !important;
+}
+#microphone .review {
+	margin-top: 60px !important;
+}
+}
+@media (max-width: 575.98px) {
+  #microphone .microphone_for .image img {
+    height: 400px !important;
+  }
+  #microphone .small_arr {
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+  #microphone .rating .star {
+	flex-wrap: wrap;
+}
+#microphone .rating .star {
+	gap: 16px !important;
+}
+#microphone .rating .love p {
+    text-align: center !important;
+}
+#microphone .title h3 {
+	margin-top: 20px !important;
+}
+#microphone .price_div {
+	flex-wrap: wrap;
+}
+#microphone .quantity_flex {
+    margin-top: 40px !important;
+	gap: 45px !important;
+	flex-wrap: wrap;
+}
+#microphone .quantity_flex .quantity button {
+	padding: 14px 20px !important;
+}
+#microphone .quantity_flex .anchor a {
+	padding: 15px 30px !important;
+}
+#microphone .review_txt {
+	width: 100% !important;
+}
+#microphone .review {
+	margin-top: 80px !important;
+}
+}

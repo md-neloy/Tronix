@@ -1,0 +1,36 @@
+@media (max-width: 575.98px) {
+    #contact {
+	padding: 22px 0 60px !important;
+}
+#contact h2 {
+	font-size: 46px !important;
+}
+#contact p {
+	font-size: 16px !important;
+	width: 100% !important;
+}
+#contact .from {
+	padding: 16px !important;
+}
+#contact .from .from_nam input {
+	width: 100% !important;
+    height: fit-content !important;
+	margin-bottom: 10px !important;
+    padding:5px;
+}
+#contact .from .submits {
+	flex-wrap: wrap;
+}
+#contact .from .submit {
+    padding: 12px 45px !important;
+    display: block;
+    width: fit-content;
+    margin: 20px auto 20px !important;
+}
+#contact .info {
+	padding: 50px 24px 50px !important;
+}
+#contact .info ul li span {
+	font-size: 18px !important;
+}
+}

@@ -1,0 +1,45 @@
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #about12 .check_txt {
+    margin-top: 20px !important;
+  }
+  #about12 .check_txt .check_flex {
+    gap: 5px !important;
+  }
+  #about12t .check_txt .check_flex p {
+    gap: 5px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #about12 .check_txt {
+    margin-bottom: 80px;
+    margin-top: 20px !important;
+  }
+  #about12 .check_txt .check_flex {
+    gap: 5px !important;
+  }
+  #about12t .check_txt .check_flex p {
+    gap: 5px !important;
+    font-size: 15px !important;
+  }
+  #about12 .check_txt .check_flex p span {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #about12 .check_txt .check_flex .line {
+    width: 239px !important;
+  }
+  #about12 .check_txt .check_flex p {
+    gap: 5px !important;
+    font-size: 16px !important;
+  }
+  #about12 .select_flex {
+    flex-wrap: wrap;
+  }
+  #about12 .summer_box .paycard a {
+    padding: 8px 4px !important;
+    font-size: 13px !important;
+  }
+  #about12 .summer_box .checOut {
+    padding: 18px 0px !important;
+  }
+}

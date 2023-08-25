@@ -1,0 +1,94 @@
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  #cart .check_txt {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  #cart .select_flex {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  #cart .summary {
+    margin-top: 20px;
+  }
+  #cart .select_flex .cart_selector {
+    padding-right: 0px !important;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #cart .check_txt {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  #cart .select_flex {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  #cart .summary {
+    margin-top: 20px;
+  }
+  #cart .select_flex .cart_selector {
+    padding-right: 0px !important;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #cart .check_txt {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  #cart .select_flex {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  #cart .summary {
+    margin-top: 20px;
+  }
+  #cart .select_flex .cart_selector {
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #cart .check_txt {
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+  #cart .check_txt .check_flex {
+    gap: 5px !important;
+  }
+  #cart .check_txt .check_flex p {
+    gap: 5px !important;
+    font-size: 15px !important;
+  }
+  #cart .check_txt .check_flex p span {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #cart .check_txt .check_flex .line {
+    width: 239px !important;
+  }
+  #cart .select_flex {
+    flex-wrap: wrap;
+  }
+  #cart .select_flex .cart_selector {
+    padding-right: 0px !important;
+  }
+  #cart .select_flex .cart_selector .portable_slct {
+    gap: 30px !important;
+    flex-wrap: wrap;
+  }
+  #cart .select_flex .cart_selector .portable_slct .flex_img {
+    gap: 37px !important;
+  }
+  #cart .cross {
+    display: none;
+  }
+  #cart .summary {
+    margin-top: 20px;
+  }
+  #cart .select_flex .summary .cupon {
+    flex-wrap: wrap;
+  }
+  #cart .select_flex .summary .cupon a {
+    width: 100% !important;
+  }
+}

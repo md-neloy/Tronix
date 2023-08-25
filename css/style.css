@@ -95,7 +95,7 @@ p {
 }
 #navbar input {
   background: #efefef;
-  color: #fff;
+  color: #000000;
   width: 450px;
   border: none;
 }
@@ -2058,10 +2058,10 @@ header .header .contact a span {
 }
 #about .wrapper .scroll .scrolling-container::-webkit-scrollbar {
   width: 6px;
-  background-color: #f46b5b;
+  background: #f46b5b;
 }
 #about .wrapper .scroll .scrolling-container::-webkit-scrollbar-thumb {
-  background-color: #f46b5b;
+  background: #f46b5b;
 }
 #about .wrapper .filter .according_filter button {
   border: none;

@@ -57,10 +57,10 @@
       }
       .scrolling-container::-webkit-scrollbar {
         width: 6px;
-        background-color: $brand-color;
+        background: $brand-color;
       }
       .scrolling-container::-webkit-scrollbar-thumb {
-        background-color: $brand-color;
+        background: $brand-color;
       }
     }
     .filter {
