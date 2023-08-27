@@ -1170,6 +1170,8 @@ header .header .contact a span {
 }
 #product2 .arr_div img {
   width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 #product2 .arr_div h3 {
   font-family: "Poppins", sans-serif;
@@ -3438,7 +3440,7 @@ header .header .contact a span {
   margin-left: 16px;
 }
 
-.header {
+.end {
   justify-content: flex-end !important;
 }
 
