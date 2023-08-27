@@ -1,4 +1,7 @@
 @import "../variable/variable";
+.header {
+  justify-content: flex-end !important;
+}
 #about9 {
   padding: 48px 0 0;
   .common_text {
@@ -164,12 +167,14 @@
       top: 101%;
       left: 38%;
       cursor: pointer;
+      color: $brand-color;
     }
     .next_btn {
       position: absolute;
       top: 101%;
       right: 38%;
       cursor: pointer;
+      color: $brand-color;
     }
     ul {
       padding: 0;

@@ -413,3 +413,124 @@ function reverse() {
     checker.checked = false;
   }
 }
+
+// ======================== for nav bar dasboard ====================
+let dash = document.querySelectorAll(".dasborad");
+let dash2 = document.querySelectorAll(".dasborad2");
+function toggleShow() {
+  dash.forEach((check) => {
+    if (check.classList.contains("show")) {
+      check.classList.remove("show");
+    } else {
+      check.classList.add("show");
+    }
+  });
+}
+function toggleshow() {
+  dash2.forEach((check) => {
+    if (check.classList.contains("show")) {
+      check.classList.remove("show");
+    } else {
+      check.classList.add("show");
+    }
+  });
+}
+
+// function modechanger() {
+//   body.forEach((bodys) => {
+//     if (bodys.classList.contains("bgcolor")) {
+//       bodys.classList.remove("bgcolor");
+//       changtxt.innerHTML = "enable dark mode";
+//     } else {
+//       bodys.classList.add("bgcolor");
+//       changtxt.innerText = "enable default mode";
+//     }
+//   });
+//   menuclr.forEach((clor) => {
+//     const computedStyle = window.getComputedStyle(clor);
+//     let colors = computedStyle.color;
+//     if (colors === "rgb(255, 255, 255)") {
+//       clor.style.color = "#383838";
+//       clor.style.borderColor = "rgba(56, 56, 56, 0.5098039216)";
+//     } else {
+//       clor.style.color = "rgb(255, 255, 255)";
+//       clor.style.borderColor = "rgb(255, 255, 255)";
+//     }
+//   });
+// }
+let body = document.querySelectorAll("body");
+let darkI = document.querySelectorAll(".darkI");
+let menuclr = document.querySelectorAll(".menuclr");
+let changtxt = document.querySelector(".changtxt");
+let darkbtn = document.querySelector(".darkbtn");
+// ================= start darkmode function ========================
+darkbtn.addEventListener("click", () => {
+  if (darkbtn.checked) {
+    localStorage.setItem("darkMode", "true");
+    localStorage.setItem("coloMode", "true");
+    changeColor();
+    applyDarkmode();
+  } else {
+    localStorage.setItem("darkMode", "false");
+    localStorage.setItem("colorMode", "false");
+    applyLightmode();
+    normalColor();
+  }
+});
+
+/* =====================
+  darkmode appy function
+  ====================== */
+function applyDarkmode() {
+  body.forEach((bodys) => {
+    bodys.classList.add("bgcolor");
+    changtxt.innerText = "enable default mode";
+  });
+  darkI.forEach((according) => {
+    according.classList.add("bgcolor");
+  })
+}
+
+/* =====================
+  Lightmode appy function
+  ====================== */
+function applyLightmode() {
+  body.forEach((bodys) => {
+    bodys.classList.remove("bgcolor");
+    changtxt.innerText = "enable dark mode";
+  });
+   darkI.forEach((according) => {
+     according.classList.remove("bgcolor");
+   });
+}
+
+/* =====================
+  changeColor appy function
+  ====================== */
+function changeColor() {
+  menuclr.forEach((clor) => {
+      clor.style.color = "rgb(255, 255, 255)";
+      clor.style.borderColor = "rgb(255, 255, 255)";
+  });
+}
+/* =====================
+  normalColor appy function
+  ====================== */
+function normalColor() {
+  menuclr.forEach((clor) => {
+    clor.style.color = "#383838";
+    clor.style.borderColor = " rgba(56, 56, 56, 0.5098039216)";
+  });
+}
+
+const savedDarkMode = localStorage.getItem("darkMode");
+const savetextMode = localStorage.getItem("coloMode");
+if (savedDarkMode === "true") {
+  darkbtn.checked = "true";
+  applyDarkmode();
+  changeColor();
+} else {
+  darkbtn.checked = "false";
+  applyLightmode();
+  normalColor();
+}

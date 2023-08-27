@@ -93,7 +93,7 @@
         box-shadow: none;
       }
       .accordion-button:not(.collapsed) {
-        color: $primary-color;
+        color: $brand-color;
         background-color: transparent;
         box-shadow: none;
       }
@@ -131,7 +131,7 @@
         box-shadow: none;
       }
       .accordion-button:not(.collapsed) {
-        color: $primary-color;
+        color: $brand-color;
         background-color: transparent;
         box-shadow: none;
       }
@@ -232,7 +232,7 @@
         box-shadow: none;
       }
       .accordion-button:not(.collapsed) {
-        color: $primary-color;
+        color: $brand-color;
         background-color: transparent;
         box-shadow: none;
       }
@@ -333,7 +333,7 @@
         box-shadow: none;
       }
       .accordion-button:not(.collapsed) {
-        color: $primary-color;
+        color: $brand-color;
         background-color: transparent;
         box-shadow: none;
       }
@@ -454,7 +454,7 @@
       border: 1px solid $secondary-color;
       transition: all 0.4s;
       &:hover {
-        color: $brand-color;
+        color: $brand-color !important;
         cursor: pointer;
       }
       span {

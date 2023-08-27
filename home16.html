@@ -10,19 +10,37 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/responsive/h16responsive.css">
+    <link rel="stylesheet" href="css/responsive/home3responsive.css">
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- ======== menu part start ============ -->
+       <!-- ======== menu part start ============ -->
+    <header>
+      <div class="container d-flex header">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
+        </div>
+      </div>
+    </header>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -35,11 +53,38 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
-          style="margin-left: 128px"
         >
-          <form class="d-flex">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="justify-content: center"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 hnav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active menuclr"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menuclr" href="./home4.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -50,38 +95,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <div
-            class="collapse navbar-collapse"
-            id="navbarSupportedContent"
-            style="justify-content: center"
-          >
-            <ul class="navbar-nav mb-2 mb-lg-0 hnav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./home14.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -93,51 +110,51 @@
       <div class="container">
         <div class="profile">
           <div class="myprofile">
-            <h3>My Profile</h3>
+            <h3 class="menuclr">My Profile</h3>
             <ul class="px-0">
               <li>
-                <a href="#">Account Details</a>
+                <a href="#" class="menuclr">Account Details</a>
               </li>
               <li>
-                <a href="#">Orders</a>
+                <a href="#" class="menuclr">Orders</a>
               </li>
               <li>
-                <a href="#">Wallet</a>
+                <a href="#" class="menuclr">Wallet</a>
               </li>
               <li>
-                <a href="#">Addresses</a>
+                <a href="#" class="menuclr">Addresses</a>
               </li>
               <li>
-                <a href="#">My Favorites</a>
+                <a href="#" class="menuclr">My Favorites</a>
               </li>
               <li>
-                <a href="#">Loyalty</a>
+                <a href="#" class="menuclr">Loyalty</a>
               </li>
               <li>
-                <a href="#">Logout</a>
+                <a href="#" class="menuclr">Logout</a>
               </li>
             </ul>
           </div>
           <div class="account_data">
-            <h3>Account Details</h3>
+            <h3 class="menuclr">Account Details</h3>
             <p>Already have an account? Please, <a href="#">login!</a></p>
             <div class="name">
               <div class="first_name">
-                <p>First Name</p>
+                <p class="menuclr">First Name</p>
                 <input type="text" />
               </div>
               <div class="first_name">
-                <p>Last Name</p>
+                <p class="menuclr">Last Name</p>
                 <input type="text" />
               </div>
           </div>
             <div class="name">
               <div class="first_name">
-                <p>Email</p>
+                <p class="menuclr">Email</p>
                 <input type="email" />
               </div>
               <div class="first_name">
-                <p>Phone</p>
+                <p class="menuclr">Phone</p>
                 <input type="number" id="number" inputmode="numeric" />
               </div>
           </div>

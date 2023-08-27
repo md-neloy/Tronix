@@ -10,21 +10,37 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/responsive/h10responsive.css">
-    <link rel="stylesheet" href="css/responsive/home3responsive.css">
+    <link rel="stylesheet" href="css/responsive/h10responsive.css" />
+    <link rel="stylesheet" href="css/responsive/home3responsive.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- ======== menu part start ============ -->
+    <header>
+      <div class="container d-flex header">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
+        </div>
+      </div>
+    </header>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -37,7 +53,7 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
         >
           <div
@@ -48,27 +64,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -79,10 +95,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -94,13 +110,13 @@
       <div class="container">
         <p class="small_arr">
           <a href="./index.html">Home</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home9.html">Latest Blog </a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home12.html">Checkout</a>
         </p>
         <div class="common_text">
-          <h2>Blog Post</h2>
+          <h2 class="menuclr">Blog Post</h2>
           <p class="text" style="width: 628px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
@@ -111,91 +127,91 @@
             <input type="search" class="nosubmit" placeholder="search..." />
             <div class="categories">
               <ul>
-                <li>Categories</li>
+                <li class="menuclr">Categories</li>
                 <li>
-                  <a href="#"
+                  <a href="#" class="menuclr"
                     ><i class="fa-solid fa-chevron-right"></i>Technology</a
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fa-solid fa-chevron-right"></i>Blog</a>
+                  <a href="#" class="menuclr"><i class="fa-solid fa-chevron-right"></i>Blog</a>
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="#" class="menuclr"
                     ><i class="fa-solid fa-chevron-right"></i>Gadget</a
                   >
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="#" class="menuclr"
                     ><i class="fa-solid fa-chevron-right"></i>Gaming</a
                   >
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="#" class="menuclr"
                     ><i class="fa-solid fa-chevron-right"></i>Reviews</a
                   >
                 </li>
               </ul>
             </div>
             <div class="tag">
-              <h3>Tags</h3>
+              <h3 class="menuclr callingmenuclr">Tags</h3>
               <ul class="first_tag">
                 <li>
-                  <a href="#">Tips</a>
+                  <a href="#" class="menuclr">Tips</a>
                 </li>
                 <li>
-                  <a href="#">Tech</a>
+                  <a href="#" class="menuclr">Tech</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#" class="menuclr">Blog</a>
                 </li>
               </ul>
               <ul class="first_tag">
                 <li>
-                  <a href="#">News</a>
+                  <a href="#" class="menuclr">News</a>
                 </li>
                 <li>
-                  <a href="#">Gaming</a>
+                  <a href="#" class="menuclr">Gaming</a>
                 </li>
                 <li>
-                  <a href="#">Reviews</a>
+                  <a href="#" class="menuclr">Reviews</a>
                 </li>
               </ul>
             </div>
             <div class="RecentPost">
-              <h3>Recent Post</h3>
+              <h3 class="menuclr">Recent Post</h3>
               <div class="img_txt">
                 <img src="img/dslr.png" alt="" />
                 <div class="txt">
-                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <p class="menuclr">Lorem ipsum dolor sit amet, consectetur.</p>
                   <p><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
               <div class="img_txt">
                 <img src="img/dslr.png" alt="" />
                 <div class="txt">
-                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <p class="menuclr">Lorem ipsum dolor sit amet, consectetur.</p>
                   <p><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
               <div class="img_txt">
                 <img src="img/dslr.png" alt="" />
                 <div class="txt">
-                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <p class="menuclr">Lorem ipsum dolor sit amet, consectetur.</p>
                   <p><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-9">
-            <h2 class="title">6 Best Smartphone for e-Sport Pro Player</h2>
+            <h2 class="title menuclr">6 Best Smartphone for e-Sport Pro Player</h2>
             <div class="date">
               <p><i class="fa-regular fa-calendar-days"></i>12 June 2021</p>
               <p><i class="fa-solid fa-user"></i>by Admin One</p>
               <p><i class="fa-solid fa-message"></i>12 Comments</p>
             </div>
             <img class="player_img" src="img/banner.png" alt="" />
-            <p class="player_txt">
+            <p class="player_txt menuclr">
               To support performance in playing, a professional e-sport player
               must use the right device. To support performance in playing, a
               professional e-sport player must use the right e-sport-support
@@ -240,10 +256,10 @@
             </p>
             <div class="tags">
               <div class="tops">
-                <p><span>Tags:</span>Tips, Blog, Tech</p>
+                <p><span class="menuclr">Tags:</span>Tips, Blog, Tech</p>
               </div>
               <div class="social">
-                <p>
+                <p class="menuclr">
                   <span>Share:</span><i class="fa-solid fa-share"></i>
                   <i class="fa-brands fa-facebook"></i>
                   <i class="fa-brands fa-twitter"></i>
@@ -251,40 +267,40 @@
               </div>
             </div>
             <div class="row">
-              <h2 class="related">Related Post</h2>
+              <h2 class="related menuclr">Related Post</h2>
               <div class="col-lg-4">
                 <div class="sports">
                   <img src="img/flash2.png" alt="" />
-                  <h3>6 Best Smartphone for e-Sport Pro Player</h3>
-                  <p><span>Admin</span> - 12 June 2021</p>
+                  <h3 class="menuclr">6 Best Smartphone for e-Sport Pro Player</h3>
+                  <p class="menuclr"><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="sports">
                   <img src="img/flash2.png" alt="" />
-                  <h3>6 Best Smartphone for e-Sport Pro Player</h3>
-                  <p><span>Admin</span> - 12 June 2021</p>
+                  <h3 class="menuclr">6 Best Smartphone for e-Sport Pro Player</h3>
+                  <p class="menuclr"><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="sports">
                   <img src="img/flash2.png" alt="" />
-                  <h3>6 Best Smartphone for e-Sport Pro Player</h3>
-                  <p><span>Admin</span> - 12 June 2021</p>
+                  <h3 class="menuclr">6 Best Smartphone for e-Sport Pro Player</h3>
+                  <p class="menuclr"><span>Admin</span> - 12 June 2021</p>
                 </div>
               </div>
             </div>
             <div class="comments">
-              <h2>Comments</h2>
+              <h2 class="menuclr">Comments</h2>
               <div class="txt_cmt">
                 <div class="img">
                   <img src="img/dslr.png" alt="" />
                   <div class="img_txt">
-                    <h3>Samantha</h3>
+                    <h3 class="menuclr">Samantha</h3>
                     <p>1 Month Ago</p>
                   </div>
                 </div>
-                <p class="txt">
+                <p class="txt menuclr">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -299,11 +315,11 @@
                 <div class="img">
                   <img src="img/dslr.png" alt="" />
                   <div class="img_txt">
-                    <h3>Samantha</h3>
+                    <h3 class="menuclr">Samantha</h3>
                     <p>1 Month Ago</p>
                   </div>
                 </div>
-                <p class="txt">
+                <p class="txt menuclr">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -314,7 +330,7 @@
               </div>
             </div>
             <div class="cmt_area">
-              <h3>Leave a Comment</h3>
+              <h3 class="menuclr">Leave a Comment</h3>
               <p>Comment *</p>
               <textarea id="txt_area"></textarea>
               <div class="input_box">

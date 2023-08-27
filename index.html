@@ -20,19 +20,29 @@
     <header>
       <div class="container d-flex header">
         <div class="social">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="contact">
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-solid fa-phone"></i></span>+12 345 6789 0</a
           >
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-regular fa-envelope"></i></span
             >support@tronix.com
           </a>
+        </div>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label class="form-check-label menuclr changtxt" for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
         </div>
       </div>
     </header>
@@ -60,9 +70,22 @@
           class="collapse navbar-collapse respon nav_flex"
           id="navbarSupportedContent"
         >
-          <a href="#" class="mx-2"
-            ><img src="img/searchlogo.png" alt="searchlogo"
-          /></a>
+          <div class="mx-2 dashlogo">
+            <div class="tooltip"></div>
+            <img
+              src="img/searchlogo.png"
+              onclick="toggleShow()"
+              alt="searchlogo"
+            />
+            <ul class="dasborad px-0">
+              <li>
+                <a href="./home15.html">Login/Create Account</a>
+              </li>
+              <li>
+                <a href="./home16.html">Profile/Account Details</a>
+              </li>
+            </ul>
+          </div>
           <form class="d-flex frm">
             <input
               class="form-control"
@@ -74,10 +97,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
           <a href="#" class="signBtn">Sign In</a>
@@ -90,21 +113,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./home2.html"
+              <a
+                class="nav-link active menuclr"
+                aria-current="page"
+                href="./home2.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./home4.html">About</a>
+              <a class="nav-link menuclr" href="./home4.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./home5.html">Product</a>
+              <a class="nav-link menuclr" href="./home5.html">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link menuclr" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./home14.html">Contact</a>
+              <a class="nav-link menuclr" href="./home14.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -137,43 +163,43 @@
     <!-- ======== catagory part start =========== -->
     <section id="catagory">
       <div class="container">
-        <p>Category</p>
+        <p class="menuclr">Category</p>
         <ul>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-desktop"></i></span> Computer &
               Laptop</a
             >
           </li>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-mobile-screen-button"></i></span
               >Mobile & Tablet</a
             >
           </li>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-camera"></i></span>Camera</a
             >
-          </li>
-          <li>
-            <a href="#"
+          </li class="menuclr">
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-tv"></i></span>TV & Smart Box</a
             >
           </li>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-building"></i></span>Home
               Appliance</a
             >
           </li>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-keyboard"></i></span>Accessories</a
             >
           </li>
-          <li>
-            <a href="#"
+          <li class="menuclr">
+            <a href="#" class="menuclr"
               ><span><i class="fa-solid fa-ethernet"></i></span>Other
               Categories</a
             >
@@ -186,7 +212,7 @@
     <section id="arrival">
       <div class="container">
         <div class="common_text">
-          <h2>New Arrival</h2>
+          <h2 class="menuclr">New Arrival</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
@@ -194,23 +220,23 @@
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <div class="arrive_box">
+            <div class="arrive_box menuclr">
               <img src="img/mobile.png" alt="moblie" />
-              <p>Smartphone 5G</p>
+              <p class="menuclr">Smartphone 5G</p>
               <p>$299</p>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="arrive_box">
+            <div class="arrive_box menuclr">
               <img src="img/pc.png" alt="moblie" />
-              <p>Smartphone 5G</p>
+              <p class="menuclr">Smartphone 5G</p>
               <p>$299</p>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="arrive_box">
+            <div class="arrive_box menuclr">
               <img src="img/musicBox.png" alt="moblie" />
-              <p>Smartphone 5G</p>
+              <p class="menuclr">Smartphone 5G</p>
               <p>$299</p>
             </div>
           </div>
@@ -222,7 +248,7 @@
     <section id="featured">
       <div class="container">
         <div class="common_text">
-          <h2>Featured Products</h2>
+          <h2 class="menuclr">Featured Products</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
@@ -231,21 +257,21 @@
         <div class="row" style="align-items: center">
           <div class="col-lg-6">
             <div class="mike">
-              <p>Wireless Microphone</p>
+              <p class="menuclr">Wireless Microphone</p>
               <p><span>$29.99</span>- $19.99</p>
               <img src="img/mike.png" alt="" />
               <div class="div">
                 <div class="music_hr">
                   <p>2</p>
-                  <p>Hours</p>
+                  <p class="menuclr">Hours</p>
                 </div>
                 <div class="music_hr">
                   <p>16</p>
-                  <p>Minutes</p>
+                  <p class="menuclr">Minutes</p>
                 </div>
                 <div class="music_hr">
                   <p>27</p>
-                  <p>Seconds</p>
+                  <p class="menuclr">Seconds</p>
                 </div>
               </div>
             </div>
@@ -259,20 +285,20 @@
                   </div>
                   <div class="text">
                     <a href="#">Limited Offer</a>
-                    <p>Smart Watch New Series</p>
+                    <p class="menuclr">Smart Watch New Series</p>
                     <p><span>$29.99</span>- $19.99</p>
                     <div class="div">
                       <div class="music_hr">
                         <p>2</p>
-                        <p>Hr</p>
+                        <p class="menuclr">Hr</p>
                       </div>
                       <div class="music_hr">
                         <p>16</p>
-                        <p>Min</p>
+                        <p class="menuclr">Min</p>
                       </div>
                       <div class="music_hr">
                         <p>27</p>
-                        <p>Sec</p>
+                        <p class="menuclr">Sec</p>
                       </div>
                     </div>
                   </div>
@@ -287,20 +313,20 @@
                   </div>
                   <div class="text">
                     <a href="#">Limited Offer</a>
-                    <p>Smart Watch New Series</p>
+                    <p class="menuclr">Smart Watch New Series</p>
                     <p><span>$29.99</span>- $19.99</p>
                     <div class="div">
                       <div class="music_hr">
                         <p>2</p>
-                        <p>Hr</p>
+                        <p class="menuclr">Hr</p>
                       </div>
                       <div class="music_hr">
                         <p>16</p>
-                        <p>Min</p>
+                        <p class="menuclr">Min</p>
                       </div>
                       <div class="music_hr">
                         <p>27</p>
-                        <p>Sec</p>
+                        <p class="menuclr">Sec</p>
                       </div>
                     </div>
                   </div>
@@ -316,7 +342,7 @@
     <section id="collection">
       <div class="container">
         <div class="common_text">
-          <h2>Our Collections</h2>
+          <h2 class="menuclr">Our Collections</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
@@ -354,7 +380,7 @@
     <!-- ======== flash_sale part start =========== -->
     <section id="flash_sale">
       <div class="container">
-        <h2>Flash Sale</h2>
+        <h2 class="menuclr">Flash Sale</h2>
         <div class="row">
           <div class="col-lg-12">
             <div class="slide2">
@@ -462,13 +488,13 @@
     <!-- ======== product part start =========== -->
     <section id="product">
       <div class="container">
-        <h3>Top Rated Product</h3>
+        <h3 class="menuclr">Top Rated Product</h3>
         <div class="row">
           <div class="product_slide">
             <div>
               <div class="product_div">
                 <img src="img/flash2.png" alt="" />
-                <h4>Smart Mop Robot</h4>
+                <h4 class="menuclr">Smart Mop Robot</h4>
                 <p>$1000.00</p>
                 <p class="star">
                   <span>5.0</span><i class="fa-solid fa-star"></i
@@ -483,7 +509,7 @@
             <div>
               <div class="product_div">
                 <img src="img/flash2.png" alt="" />
-                <h4>Smart Mop Robot</h4>
+                <h4 class="menuclr">Smart Mop Robot</h4>
                 <p>$1000.00</p>
                 <p class="star">
                   <span>5.0</span><i class="fa-solid fa-star"></i
@@ -498,7 +524,7 @@
             <div>
               <div class="product_div">
                 <img src="img/flash2.png" alt="" />
-                <h4>Smart Mop Robot</h4>
+                <h4 class="menuclr">Smart Mop Robot</h4>
                 <p>$1000.00</p>
                 <p class="star">
                   <span>5.0</span><i class="fa-solid fa-star"></i
@@ -513,7 +539,7 @@
             <div>
               <div class="product_div">
                 <img src="img/flash2.png" alt="" />
-                <h4>Smart Mop Robot</h4>
+                <h4 class="menuclr">Smart Mop Robot</h4>
                 <p>$1000.00</p>
                 <p class="star">
                   <span>5.0</span><i class="fa-solid fa-star"></i
@@ -528,7 +554,7 @@
             <div>
               <div class="product_div">
                 <img src="img/flash2.png" alt="" />
-                <h4>Smart Mop Robot</h4>
+                <h4 class="menuclr">Smart Mop Robot</h4>
                 <p>$1000.00</p>
                 <p class="star">
                   <span>5.0</span><i class="fa-solid fa-star"></i

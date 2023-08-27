@@ -17,27 +17,41 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- ======== menu part start ============ -->
+  <!-- ======== menu part start ============ -->
     <header>
       <div class="container d-flex header">
         <div class="social">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="menuclr"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="contact">
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-solid fa-phone"></i></span>+12 345 6789 0</a
           >
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-regular fa-envelope"></i></span
             >support@tronix.com
           </a>
-          <a href="#">
+          <a href="#" class="menuclr">
             <span><i class="fa-regular fa-user"></i></span>
             account
           </a>
+        </div>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
         </div>
       </div>
     </header>
@@ -47,7 +61,7 @@
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -60,7 +74,7 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
         >
           <div
@@ -71,27 +85,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -102,10 +116,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -117,16 +131,16 @@
       <div class="container">
         <p class="small_arr py-5">
           <a href="./index.html">Home</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home6.html">All catagory</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home8.html">Product details </a>
         </p>
         <div class="row">
           <div class="col-lg-3">
             <div class="wrapper">
               <div class="scroll">
-                <h3><li>All Categories</li></h3>
+                <h3 class="menuclr"><li>All Categories</li></h3>
                 <ul class="scrolling-container">
                   <li>
                     <a href="#">Computer & Laptop <span>(25)</span></a>
@@ -165,7 +179,7 @@
               </div>
               <div class="filter">
                 <div class="accordion according_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -195,7 +209,7 @@
                             id="myRange"
                           />
                         </div>
-                        <p><span>Price</span>: $100 - $250</p>
+                        <p class="menuclr"><span>Price</span>: $100 - $250</p>
                       </div>
                     </div>
                   </div>
@@ -203,7 +217,7 @@
               </div>
               <div class="location_filter">
                 <div class="accordion local_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -262,7 +276,7 @@
               </div>
               <div class="star_filter">
                 <div class="accordion local_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -338,7 +352,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -367,7 +381,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -396,7 +410,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -425,7 +439,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -456,7 +470,7 @@
               <div class="img">
                 <img src="img/Search Error.svg" alt="" />
               </div>
-              <h2 class="search_head">Oops, sorry!</h2>
+              <h2 class="search_head menuclr">Oops, sorry!</h2>
               <p class="search_txt">
                 The product you are looking for is currently unavailable or try
                 to search using other keywords
@@ -464,19 +478,19 @@
             </div>
             <div class="list_product">
               <div class="head_txt">
-                <h2>Top Rated Product</h2>
+                <h2 class="menuclr">Top Rated Product</h2>
                 <a href="#">view all</a>
               </div>
               <div class="row btm">
                 <div class="col-lg-4">
                   <div class="ratedDiv">
                     <img src="img/mobile.png" alt="" />
-                    <h3>Smartphone 5G</h3>
-                    <p>$299.00</p>
+                    <h3 class="menuclr">Smartphone 5G</h3>
+                    <p class="menuclr">$299.00</p>
                     <h4>
-                      <span><i class="fa-solid fa-star"></i> 5.0</span>
+                      <span class="menuclr"><i class="fa-solid fa-star"></i> 5.0</span>
                       <span class="line"></span>
-                      <span>sold 99</span>
+                      <span class="menuclr">sold 99</span>
                     </h4>
                     <div class="love">
                       <a href="#">Add to Card</a
@@ -487,12 +501,12 @@
                 <div class="col-lg-4">
                   <div class="ratedDiv">
                     <img src="img/mobile.png" alt="" />
-                    <h3>Smartphone 5G</h3>
-                    <p>$299.00</p>
+                    <h3 class="menuclr">Smartphone 5G</h3>
+                    <p class="menuclr">$299.00</p>
                     <h4>
-                      <span><i class="fa-solid fa-star"></i> 5.0</span>
+                      <span class="menuclr"><i class="fa-solid fa-star"></i> 5.0</span>
                       <span class="line"></span>
-                      <span>sold 99</span>
+                      <span class="menuclr">sold 99</span>
                     </h4>
                     <div class="love">
                       <a href="#">Add to Card</a
@@ -503,12 +517,12 @@
                 <div class="col-lg-4">
                   <div class="ratedDiv">
                     <img src="img/mobile.png" alt="" />
-                    <h3>Smartphone 5G</h3>
-                    <p>$299.00</p>
+                    <h3 class="menuclr">Smartphone 5G</h3>
+                    <p class="menuclr">$299.00</p>
                     <h4>
-                      <span><i class="fa-solid fa-star"></i> 5.0</span>
+                      <span class="menuclr"><i class="fa-solid fa-star"></i> 5.0</span>
                       <span class="line"></span>
-                      <span>sold 99</span>
+                      <span class="menuclr">sold 99</span>
                     </h4>
                     <div class="love">
                       <a href="#">Add to Card</a

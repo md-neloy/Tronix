@@ -18,13 +18,29 @@
   </head>
   <body>
     <!-- ======== menu part start ============ -->
+    <header>
+      <div class="container d-flex header">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
+        </div>
+      </div>
+    </header>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -37,7 +53,7 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
         >
           <div
@@ -48,27 +64,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -79,10 +95,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -94,13 +110,13 @@
       <div class="container">
         <p class="small_arr">
           <a href="./index.html">Home</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home11.html">My Cart </a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home13.html">Looking For</a>
         </p>
         <div class="common_text check_txt">
-          <h2>Checkout</h2>
+          <h2 class="menuclr">Checkout</h2>
           <div class="check_flex">
             <p><span>1</span>My cart</p>
             <span class="line"></span>
@@ -110,45 +126,45 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="from">
-              <p>Buyer Info</p>
+              <p class="menuclr">Buyer Info</p>
               <textarea id="buyerarea"></textarea>
               <div class="input_boxs">
                 <div class="first_nam">
-                  <p>First Name</p>
+                  <p class="menuclr">First Name</p>
                   <input type="text" />
                 </div>
                 <div class="first_nam">
-                  <p>Last Name</p>
-                  <input type="text" />
-                </div>
-              </div>
-              <div class="input_boxs">
-                <div class="first_nam">
-                  <p>Address</p>
-                  <input type="text" />
-                </div>
-                <div class="first_nam">
-                  <p>Contact</p>
+                  <p class="menuclr">Last Name</p>
                   <input type="text" />
                 </div>
               </div>
               <div class="input_boxs">
                 <div class="first_nam">
-                  <p>Country</p>
+                  <p class="menuclr">Address</p>
                   <input type="text" />
                 </div>
                 <div class="first_nam">
-                  <p>City</p>
+                  <p class="menuclr">Contact</p>
                   <input type="text" />
                 </div>
               </div>
               <div class="input_boxs">
                 <div class="first_nam">
-                  <p>State</p>
+                  <p class="menuclr">Country</p>
                   <input type="text" />
                 </div>
                 <div class="first_nam">
-                  <p>Zip Code</p>
+                  <p class="menuclr">City</p>
+                  <input type="text" />
+                </div>
+              </div>
+              <div class="input_boxs">
+                <div class="first_nam">
+                  <p class="menuclr">State</p>
+                  <input type="text" />
+                </div>
+                <div class="first_nam">
+                  <p class="menuclr">Zip Code</p>
                   <input type="text" />
                 </div>
               </div>
@@ -156,45 +172,45 @@
           </div>
           <div class="col-lg-4">
             <div class="summer_box">
-              <h2 class="summery">Your Order Summary</h2>
+              <h2 class="summery menuclr">Your Order Summary</h2>
               <div class="summery_txt">
-                <p><span>1x</span>USB Speaker Portable</p>
-                <p>$100.00</p>
+                <p class="menuclr"><span>1x</span>USB Speaker Portable</p>
+                <p class="menuclr">$100.00</p>
               </div>
               <div class="summery_txt">
-                <p><span>1x</span>Joystick Pro</p>
-                <p>$100.00</p>
+                <p class="menuclr"><span>1x</span>Joystick Pro</p>
+                <p class="menuclr">$100.00</p>
               </div>
               <div class="summery_txt">
-                <p><span>1x</span>Smart Phone 5G</p>
-                <p>$100.00</p>
+                <p class="menuclr"><span>1x</span>Smart Phone 5G</p>
+                <p class="menuclr">$100.00</p>
               </div>
               <div class="summery_txt">
-                <p>Subtotal</p>
-                <p>$100.00</p>
+                <p class="menuclr">Subtotal</p>
+                <p class="menuclr">$100.00</p>
               </div>
               <div class="summery_txt">
-                <p>Shipping</p>
-                <p>$100.00</p>
+                <p class="menuclr">Shipping</p>
+                <p class="menuclr">$100.00</p>
               </div>
               <div class="summery_txt">
-                <p>Tax</p>
-                <p>$10</p>
+                <p class="menuclr">Tax</p>
+                <p class="menuclr">$10</p>
               </div>
               <div class="summery_txt">
-                <h4>Total</h4>
+                <h4 class="menuclr">Total</h4>
                 <p class="rate">$325.00</p>
               </div>
-              <p class="payment">
+              <p class="payment menuclr">
                 Payment
               </p>
-              <div class="paycard">
-                <a href="#">Credit Card</a>
-                <a href="#">Bank Transfer</a>
-                <a href="#">Paypal</a>
+              <div class="paycard ">
+                <a href="#" class="menuclr">Credit Card</a>
+                <a href="#" class="menuclr">Bank Transfer</a>
+                <a href="#" class="menuclr">Paypal</a>
               </div>
               <p class="checOut">Checkout</p>
-              <p class="backcard">Back to Cart</p>
+              <p class="backcard menuclr">Back to Cart</p>
             </div>
           </div>
         </div>

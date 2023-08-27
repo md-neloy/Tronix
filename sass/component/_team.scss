@@ -10,12 +10,14 @@
     width: 318px;
     img {
       width: 100%;
-      border-radius: 18px;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
     }
     .box_txt {
       padding: 34px 0;
       background: #fff;
-      border-radius: 18px;
+      border-bottom-left-radius: 18px;
+      border-bottom-right-radius: 18px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       h3 {
         text-align: center;

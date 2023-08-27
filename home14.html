@@ -17,14 +17,30 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- ======== menu part start ============ -->
-    <nav class="navbar navbar-expand-lg py-3" id="navbar">
+       <!-- ======== menu part start ============ -->
+    <header>
+      <div class="container d-flex header">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -37,7 +53,7 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
         >
           <div
@@ -48,27 +64,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home14.html">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -79,10 +95,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -92,7 +108,7 @@
     <!-- ======== contact part start ========== -->
     <section id="contact">
       <div class="container">
-        <h2>Contact Us</h2>
+        <h2 class="menuclr">Contact Us</h2>
         <p>
           Learn more about our products and services to get a better experience
           in shopping at our website. Please complete this form to get the
@@ -104,11 +120,11 @@
           <div class="col-lg-7">
             <div class="from">
               <div class="from_nam">
-                <p>Name *</p>
+                <p class="menuclr">Name *</p>
                 <input type="text" />
-                <p>Email *</p>
+                <p class="menuclr">Email *</p>
                 <input type="text" />
-                <p>subject *</p>
+                <p class="menuclr">subject *</p>
                 <input type="text" />
               </div>
               <div class="submits">

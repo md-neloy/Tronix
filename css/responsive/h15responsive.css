@@ -1,0 +1,87 @@
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  #login .login_box {
+    padding: 32px 70px !important;
+    border-radius: 26px !important;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  #login .login_box {
+    padding: 32px 55px !important;
+    border-radius: 26px !important;
+  }
+  #login .login_box h2 {
+    margin-bottom: 26px !important;
+    font-size: 30px !important;
+  }
+  #login .login_box p {
+    width: 100% !important;
+    font-size: 14px !important;
+    margin-bottom: 17px !important;
+  }
+  #login .login_box .rember .main .custom {
+    width: 18px !important;
+    height: 18px !important;
+    top: 18px !important;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  #login .login_box {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  #login {
+    padding: 40px 0 !important;
+  }
+  #login .login_box {
+    padding: 32px 38px !important;
+    border-radius: 26px !important;
+    margin-bottom: 20px;
+  }
+  #login .login_box {
+    margin-bottom: 20px;
+  }
+  #login .login_box h2 {
+    font-size: 30px !important;
+  }
+  #login .login_box p {
+    margin-bottom: 17px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  #login {
+    padding: 40px 0 !important;
+  }
+  #login .login_box {
+    padding: 32px 18px !important;
+    border-radius: 26px !important;
+    margin-bottom: 20px;
+  }
+  #login .login_box h2 {
+    margin-bottom: 26px !important;
+    font-size: 30px !important;
+  }
+  #login .login_box p {
+    width: 100% !important;
+    font-size: 14px !important;
+    margin-bottom: 17px !important;
+  }
+  #login .login_box .rember .main .custom {
+    width: 18px !important;
+    height: 18px !important;
+    top: 18px !important;
+  }
+  #login .login_box .rember .fex p {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  #login .login_box .rember a {
+    font-size: 15px !important;
+  }
+  #login .login_box .log_fot {
+    gap: 16px;
+  }
+  #login .login_box .log_fot span {
+    font-size: 20px !important;
+  }
+}

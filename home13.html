@@ -17,14 +17,30 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- ======== menu part start ============ -->
+   <!-- ======== menu part start ============ -->
+    <header>
+      <div class="container d-flex header">
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
+        </div>
+      </div>
+    </header>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -37,7 +53,7 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
         >
           <div
@@ -48,27 +64,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home14.html">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -79,10 +95,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -94,20 +110,31 @@
       <div class="container">
         <p class="small_arr">
           <a href="./index.html">Home</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home9.html">Latest Blog </a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home14.html">Contact Us</a>
         </p>
-        <h2>What are you looking for?</h2>
+        <h2 class="menuclr">What are you looking for?</h2>
         <div class="look_search">
-          <a href="#"><img src="img/searchlogo2.svg" alt="searchlogo" /></a>
+          <div class="mx-2 dashlogo">
+            <div class="tooltip"></div>
+            <img src="img/searchlogo2.svg" onclick="toggleshow()" alt="searchlogo" />
+            <ul class="dasborad2 px-0">
+              <li>
+                <a href="./home15.html">Login/Create Account</a>
+              </li>
+              <li>
+                <a href="./home16.html">Profile/Account Details</a>
+              </li>
+            </ul>
+          </div>
           <input type="search" />
           <button class="btn">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-        <p class="lstsrc">Your Lastest Search</p>
+        <p class="lstsrc menuclr">Your Lastest Search</p>
         <div class="laptops">
           <a href="#">Smartphone</a>
           <a href="#">Laptops</a>
@@ -117,7 +144,7 @@
           <div class="col-lg-3">
             <div class="wrapper">
               <div class="scroll">
-                <h3><li>All Categories</li></h3>
+                <h3><li class="menuclr">All Categories</li></h3>
                 <ul class="scrolling-container">
                   <li>
                     <a href="#">Computer & Laptop <span>(25)</span></a>
@@ -156,7 +183,7 @@
               </div>
               <div class="filter">
                 <div class="accordion according_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -194,7 +221,7 @@
               </div>
               <div class="location_filter">
                 <div class="accordion local_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -253,7 +280,7 @@
               </div>
               <div class="star_filter">
                 <div class="accordion local_filter" id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="headingOne">
                       <button
                         class="accordion-button"
@@ -329,7 +356,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -358,7 +385,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -387,7 +414,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -416,7 +443,7 @@
                   class="accordion accordion-flush local_filter"
                   id="accordionFlushExample"
                 >
-                  <div class="accordion-item">
+                  <div class="accordion-item darkI">
                     <h3 class="accordion-header" id="flush-headingOne">
                       <button
                         class="accordion-button collapsed"
@@ -444,7 +471,7 @@
           </div>
           <div class="col-lg-9">
             <div class="viewing">
-              <p>Viewing <span>20</span> of <span>160</span> product</p>
+              <p>Viewing <span class="menuclr">20</span> of <span class="menuclr">160</span> product</p>
               <div class="icon">
                 <i class="fa-solid fa-bars"></i>
                 <img src="img/searchlogo2.svg" alt="">
@@ -469,7 +496,7 @@
                         <span class="line"></span>
                         <p></span>Sold 99</p>
                     </div>
-                    <h3>USB Speaker Portable</h3>
+                    <h3 class="menuclr">USB Speaker Portable</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
                     <a href="#">Add to Cart</a>
                   </div>
@@ -477,7 +504,7 @@
                     <del>$39.99</del>
                     <h4>$29.99</h4>
                     <div class="love">
-                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                      <p class="menuclr"><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
                     </div>
                   </div>
                 </div>
@@ -492,7 +519,7 @@
                         <span class="line"></span>
                         <p></span>Sold 99</p>
                     </div>
-                    <h3>USB Speaker Portable</h3>
+                    <h3 class="menuclr">USB Speaker Portable</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
                     <a href="#">Add to Cart</a>
                   </div>
@@ -500,7 +527,7 @@
                     <del>$39.99</del>
                     <h4>$29.99</h4>
                     <div class="love">
-                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                      <p class="menuclr"><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
                     </div>
                   </div>
                 </div>
@@ -515,7 +542,7 @@
                         <span class="line"></span>
                         <p></span>Sold 99</p>
                     </div>
-                    <h3>USB Speaker Portable</h3>
+                    <h3 class="menuclr">USB Speaker Portable</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
                     <a href="#">Add to Cart</a>
                   </div>
@@ -523,7 +550,7 @@
                     <del>$39.99</del>
                     <h4>$29.99</h4>
                     <div class="love">
-                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                      <p class="menuclr"><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
                     </div>
                   </div>
                 </div>
@@ -538,7 +565,7 @@
                         <span class="line"></span>
                         <p></span>Sold 99</p>
                     </div>
-                    <h3>USB Speaker Portable</h3>
+                    <h3 class="menuclr">USB Speaker Portable</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
                     <a href="#">Add to Cart</a>
                   </div>
@@ -546,7 +573,7 @@
                     <del>$39.99</del>
                     <h4>$29.99</h4>
                     <div class="love">
-                      <p><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
+                      <p class="menuclr"><i class="fa-solid fa-heart"></i>Add to Wishlist</p>
                     </div>
                   </div>
                 </div>

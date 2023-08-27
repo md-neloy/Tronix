@@ -1,0 +1,58 @@
+@media (min-width: 767.98px) and (max-width: 991.98px){
+   #account .profile {
+	flex-wrap: wrap;
+}  
+#account .profile .myprofile {
+    border:none !important;
+} 
+#account .profile .account_data {
+	padding-left: 0 !important;
+    margin-top: 20px;
+}  
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+ #account .profile {
+	flex-wrap: wrap;
+}  
+#account .profile .myprofile {
+    border:none !important;
+} 
+#account .profile .account_data {
+	padding-left: 0 !important;
+    margin-top: 20px;
+}
+#account .profile .account_data .name {
+	gap: 20px !important;
+	margin-bottom: 20px !important;
+}
+}
+@media (max-width: 575.98px){
+#account .profile {
+	padding: 28px 15px 10px 23px !important;
+	flex-wrap: wrap;
+}
+#account .profile .account_data {
+	padding-left: 0 !important;
+    margin-top: 20px;
+}
+#account .profile h3 {
+	font-size: 30px !important;
+	width: 100% !important;
+}
+#account .profile .myprofile {
+    border:none !important;
+	padding-right: 10px !important;
+}
+#account .profile .account_data p {
+	margin-bottom: 20px !important;
+}
+#account .profile .account_data .name {
+	gap: 20px !important;
+	margin-bottom: 20px !important;
+}
+#account .submit {
+	padding: 12px 35px !important;
+	font-size: 16px !important;
+	margin-top: 20px !important; 
+}
+}

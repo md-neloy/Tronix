@@ -1,4 +1,55 @@
+@import "../variable/variable";
 #navbar {
+  .dashlogo {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    .show{
+      visibility: visible !important;
+    }
+    .dasborad {
+      visibility: hidden;
+      position: absolute;
+      top: 128%;
+      left: 0px;
+      z-index: 9;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 5px;
+      &::before {
+        content: "";
+        border-left: 20px solid $brand-color;
+        border-bottom: 20px solid transparent;
+        position: absolute;
+        top: -9px;
+        left: 14px;
+        transform: rotate(45deg);
+      }
+      li {
+        padding: 0;
+        &:hover {
+          background: $brand-color;
+          cursor: pointer;
+        }
+        &:hover a {
+          color: #fff;
+        }
+        &:first-child {
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+        &:last-child {
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        a {
+          width: max-content;
+          padding: 5px 10px;
+          color: $primary-color;
+        }
+      }
+    }
+  }
   .respon {
     margin-left: 180px;
   }

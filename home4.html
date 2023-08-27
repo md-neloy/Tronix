@@ -17,27 +17,41 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- ======== menu part start ============ -->
+     <!-- ======== menu part start ============ -->
     <header>
       <div class="container d-flex header">
         <div class="social">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="menuclr"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="menuclr"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="contact">
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-solid fa-phone"></i></span>+12 345 6789 0</a
           >
-          <a href="#"
+          <a href="#" class="menuclr"
             ><span><i class="fa-regular fa-envelope"></i></span
             >support@tronix.com
           </a>
-          <a href="#">
+          <a href="#" class="menuclr">
             <span><i class="fa-regular fa-user"></i></span>
             account
           </a>
+        </div>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input darkbtn"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label
+            class="form-check-label menuclr changtxt"
+            for="flexSwitchCheckDefault"
+            >enable dark mode</label
+          >
         </div>
       </div>
     </header>
@@ -47,7 +61,7 @@
           <img src="img/logo.png" alt="logo" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbtn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -60,9 +74,8 @@
           ></span>
         </button>
         <div
-          class="collapse navbar-collapse"
+          class="collapse navbar-collapse nav_flex"
           id="navbarSupportedContent"
-          style="margin-left: 128px"
         >
           <div
             class="collapse navbar-collapse"
@@ -72,27 +85,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 hnav">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link active menuclr"
                   aria-current="page"
                   href="./index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home4.html">About</a>
+                <a class="nav-link menuclr" href="./home4.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./home5.html">Product</a>
+                <a class="nav-link menuclr" href="./home5.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link menuclr" href="./home9.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link menuclr" href="./home14.html">Contact</a>
               </li>
             </ul>
           </div>
-          <form class="d-flex">
+          <form class="d-flex frm2">
             <input
               class="form-control"
               type="search"
@@ -103,10 +116,10 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
-          <a href="#" class="mail_icon"
+          <a href="#" class="mail_icon menuclr"
             ><i class="fa-regular fa-envelope"></i
           ></a>
         </div>
@@ -118,12 +131,12 @@
       <div class="container">
         <p class="small_arr">
           <a href="./index.html">Home</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home4.html">about</a
-          ><span><i class="fa-solid fa-chevron-right"></i></span
+          ><span class="menuclr"><i class="fa-solid fa-chevron-right"></i></span
           ><a href="./home5.html">catagory</a>
         </p>
-        <h2>About Tronix</h2>
+        <h2 class="menuclr">About Tronix</h2>
         <p class="text">
           We are here to provide a place special for electronic devices.
           Although we only operated for 2 years but we always provide the best
@@ -139,13 +152,13 @@
     <!-- ======== chossing part start =========== -->
     <section id="chossing">
       <div class="container">
-        <h2>Why Choosing Us</h2>
+        <h2 class="menuclr">Why Choosing Us</h2>
         <div class="choose_flex">
           <div class="choose_item">
             <div class="icon">
               <i class="fa-regular fa-lightbulb"></i>
             </div>
-            <h3>54 Brands</h3>
+            <h3 class="menuclr">54 Brands</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
@@ -154,7 +167,7 @@
             <div class="icon">
               <i class="fa-solid fa-truck-fast"></i>
             </div>
-            <h3>54 Brands</h3>
+            <h3 class="menuclr">54 Brands</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
@@ -163,7 +176,7 @@
             <div class="icon">
               <i class="fa-regular fa-lightbulb"></i>
             </div>
-            <h3>54 Brands</h3>
+            <h3 class="menuclr">54 Brands</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
@@ -172,7 +185,7 @@
             <div class="icon">
               <i class="fa-solid fa-truck-fast"></i>
             </div>
-            <h3>54 Brands</h3>
+            <h3 class="menuclr">54 Brands</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
@@ -185,7 +198,7 @@
     <section id="team">
       <div class="container">
         <div class="common_text">
-          <h2>Our Team</h2>
+          <h2 class="menuclr">Our Team</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
